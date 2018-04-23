@@ -3,10 +3,10 @@
  */
 public interface ListeInterface<T> {
 
-    /**
-     * Computes the amount of elements contained in the list
-     * @return amount of elements as int, 0 if List is empty
-     */
+   /**
+    * Computes the amount of elements contained in the list
+    * @return amount of elements as int, 0 if List is empty
+    */
    int size();
 
    /**
@@ -18,14 +18,14 @@ public interface ListeInterface<T> {
 
    /**
     * Deletes the element of the list at given position
-    * @param position 0 <= position <= Liste.size()-1, index of element that has to be deleted
+    * @param position 0 <= position < Liste.size(), index of element that has to be deleted
     */
    void delete(int position);
 
    /**
     * Computes element at given position
-    * @param position 0 <= position <= Liste.size()-1, index of position of element that is to return
-    * @return element of list at position, element must not be NULL
+    * @param position 0 <= position < Liste.size(), index of position of element that is to return
+    * @return element of list at position, element != null
     */
    T get(int position);
 
@@ -35,17 +35,19 @@ public interface ListeInterface<T> {
    void clear();
 
    /**
-    * Inserts elements of argument list at the end of list on which method is called upon
-    * @param list must not be NULL, must contain elements of same type,
-    * @return must not be NULL, size must be sum of sizes of both lists
+    * Inserts elements of otherList at the end of this list.
+    * @param otherList != null
+    * @return this list. must not be NULL, size must be sum of sizes of both lists
     */
-   ListeInterface<T> concat(ListeInterface<T> list);
+   ListeInterface<T> concat(ListeInterface<T> otherList);
 
    /**
-    * Computes sublist of elements of receiver list
-    * @param startPosition 0 <= startPosition <= liste.size()-1, index of element of receiver list that becomes first element in result list
-    * @param endPosition 0 <= endPosition <= liste.size()-1, index of element of receiver list that becomes last element in result list
-    * @return list of elements of receiver list, must not be NULL
+    * Computes sublist of elements of this list
+    * @param startPosition 0 <= startPosition < liste.size(), index of element of receiver list that becomes first element in result list
+    * @param endPosition 0 <= endPosition < liste.size(), index of element of receiver list that becomes last element in result list
+    * @return subliste.size >= 1
     */
    ListeInterface<T> sublist(int startPosition, int endPosition);
+
+   T[] getArrayListe();
 }
