@@ -7,7 +7,7 @@ public interface ListeInterface<T> {
     * Computes the amount of elements contained in the list
     * @return amount of elements as int, 0 if List is empty
     */
-   int size();
+   int getSize();
 
    /**
     * Inserts an element at a given position into the list.

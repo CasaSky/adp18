@@ -14,10 +14,10 @@ public class ListeImpl<T> implements ListeInterface<T> {
         arrayListe = (T[])new Object[maxSize];
     }
 
-    @Override
-    public int size() {
-        return arrayListe.length;
-    }
+//    @Override
+//    public int size() {
+//        return 88;
+//    }
 
     @Override
     public void insert(T element, int position) {
@@ -25,13 +25,15 @@ public class ListeImpl<T> implements ListeInterface<T> {
             throw new IllegalArgumentException("Element must be not null.");
         }
         if (position < 0 || position > getSize()) {
-            throw new IllegalArgumentException("Position must be higher 0 and lower or equal liste size");
+            throw new IllegalArgumentException("Position must be greater than 0 and lower or equal than size of liste");
         }
         if (position>maxSize) {
-            throw new IllegalArgumentException("The list is full and can not store more elements");
+            throw new IllegalArgumentException("The list is full and can not store more elements");  // IllegalArgumentException wird nicht geworfen, sondern ArrayIndexOutOfBoundsException
         }
         arrayListe[position] = element;
-        size++;
+        if (position == size) {
+            size++;
+        }
     }
 
     @Override
@@ -85,7 +87,7 @@ public class ListeImpl<T> implements ListeInterface<T> {
 //        if(this.getSize() == 0) {
 //            this.arrayListe = anotherListe.getArrayListe();
 //        } else {
-            for(int i = 0; i < anotherListe.size(); ++i) {
+            for(int i = 0; i < anotherListe.getSize(); ++i) {
                 this.insert(anotherListe.get(i), this.getSize());  // statt this.getSize() mit Variable und hochzählen arbeiten, dann muss nicht jedes Mal über die Liste iteriert werden
             }
 //        }
@@ -117,6 +119,7 @@ public class ListeImpl<T> implements ListeInterface<T> {
         return resultString;
     }
 
+    @Override
     public int getSize() {
         return size;
     }
