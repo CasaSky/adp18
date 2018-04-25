@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="125b7fe4-75f7-4235-8383-96b09438594b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ListeImpl.java" afterPath="$PROJECT_DIR$/src/ListeImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ListeInterface.java" afterPath="$PROJECT_DIR$/src/ListeInterface.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/ListeImplTest.java" afterPath="$PROJECT_DIR$/tests/ListeImplTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,7 +24,7 @@
           <file leaf-file-name="ListeImpl.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/ListeImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="280">
+                <state relative-caret-position="-451">
                   <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                   <folding>
                     <element signature="e#1947#1948#0" expanded="true" />
@@ -44,8 +42,10 @@
             <entry file="file://$PROJECT_DIR$/tests/ListeImplTest.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="91">
-                  <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-                  <folding />
+                  <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+                  <folding>
+                    <marker date="1524661286054" expanded="true" signature="930:942" ph="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -93,8 +93,8 @@
           <file leaf-file-name="ListeImplTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/ListeImplTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="844">
-                  <caret line="61" column="42" lean-forward="false" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+                <state relative-caret-position="239">
+                  <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -125,8 +125,8 @@
       <list>
         <option value="$PROJECT_DIR$/out/production/adp18/ListeImpl.class" />
         <option value="$PROJECT_DIR$/src/ListeInterface.java" />
-        <option value="$PROJECT_DIR$/tests/ListeImplTest.java" />
         <option value="$PROJECT_DIR$/src/ListeImpl.java" />
+        <option value="$PROJECT_DIR$/tests/ListeImplTest.java" />
       </list>
     </option>
   </component>
@@ -256,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ListeImplTest.insertDestructiveTest">
+  <component name="RunManager" selected="JUnit.ListeImplTest.deletePositionGreaterThanOrEqualSize">
     <configuration default="false" name="ListeImplTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="adp18" />
@@ -278,69 +278,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ListeImplTest.insertAtPositionGreaterThanSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="adp18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListeImplTest" />
-      <option name="METHOD_NAME" value="insertAtPositionGreaterThanSize" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ListeImplTest.insertAtPositionGreaterThanInternArraySizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="adp18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListeImplTest" />
-      <option name="METHOD_NAME" value="insertAtPositionGreaterThanInternArraySizeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ListeImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="adp18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListeImplTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="ListeImplTest.insertDestructiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="adp18" />
@@ -349,6 +286,69 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ListeImplTest" />
       <option name="METHOD_NAME" value="insertDestructiveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ListeImplTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="adp18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ListeImplTest" />
+      <option name="METHOD_NAME" value="deleteTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ListeImplTest.deleteNegativePositionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="adp18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ListeImplTest" />
+      <option name="METHOD_NAME" value="deleteNegativePositionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ListeImplTest.deletePositionGreaterThanOrEqualSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="adp18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ListeImplTest" />
+      <option name="METHOD_NAME" value="deletePositionGreaterThanOrEqualSize" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -771,18 +771,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.ListeImplTest.insertTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ListeImplTest.insertAtPositionGreaterThanSize" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ListeImplTest.insertAtPositionGreaterThanInternArraySizeTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ListeImplTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ListeImplTest.insertDestructiveTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ListeImplTest.insertDestructiveTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ListeImplTest.deleteTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ListeImplTest.deleteNegativePositionTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ListeImplTest.deletePositionGreaterThanOrEqualSize" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ListeImplTest.insertDestructiveTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ListeImplTest.insertTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ListeImplTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ListeImplTest.insertAtPositionGreaterThanInternArraySizeTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ListeImplTest.insertAtPositionGreaterThanSize" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ListeImplTest.deletePositionGreaterThanOrEqualSize" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ListeImplTest.deleteNegativePositionTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ListeImplTest.deleteTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ListeImplTest.insertDestructiveTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ListeImplTest.insertTest" />
       </list>
     </recent_temporary>
   </component>
@@ -819,24 +819,37 @@
       <option name="project" value="LOCAL" />
       <updated>1524652133237</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="size() entfernt. &#10;getSize() funktioniert.&#10;insert() geändert und getestet, funktioniert">
+      <created>1524660601047</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1524660601047</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ListeImplTest - 2018.04.25 at 14h 39m 28s.xml">
-      <configuration name="ListeImplTest" configurationId="JUnit" />
+    <history-entry file="ListeImplTest_deleteNegativePositionTest - 2018.04.25 at 14h 58m 50s.xml">
+      <configuration name="ListeImplTest.deleteNegativePositionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListeImplTest_insertDestructiveTest - 2018.04.25 at 14h 42m 45s.xml">
-      <configuration name="ListeImplTest.insertDestructiveTest" configurationId="JUnit" />
+    <history-entry file="ListeImplTest_deleteNegativePositionTest - 2018.04.25 at 14h 59m 06s.xml">
+      <configuration name="ListeImplTest.deleteNegativePositionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListeImplTest_insertDestructiveTest - 2018.04.25 at 14h 43m 09s.xml">
-      <configuration name="ListeImplTest.insertDestructiveTest" configurationId="JUnit" />
+    <history-entry file="ListeImplTest_deletePositionGreaterThanOrEqualSize - 2018.04.25 at 15h 01m 11s.xml">
+      <configuration name="ListeImplTest.deletePositionGreaterThanOrEqualSize" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListeImplTest_insertDestructiveTest - 2018.04.25 at 14h 43m 21s.xml">
-      <configuration name="ListeImplTest.insertDestructiveTest" configurationId="JUnit" />
+    <history-entry file="ListeImplTest_deletePositionGreaterThanOrEqualSize - 2018.04.25 at 15h 01m 28s.xml">
+      <configuration name="ListeImplTest.deletePositionGreaterThanOrEqualSize" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListeImplTest_insertDestructiveTest - 2018.04.25 at 14h 45m 12s.xml">
-      <configuration name="ListeImplTest.insertDestructiveTest" configurationId="JUnit" />
+    <history-entry file="ListeImplTest_deleteTest - 2018.04.25 at 14h 55m 13s.xml">
+      <configuration name="ListeImplTest.deleteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListeImplTest_deleteTest - 2018.04.25 at 14h 55m 52s.xml">
+      <configuration name="ListeImplTest.deleteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListeImplTest_deleteTest - 2018.04.25 at 14h 57m 23s.xml">
+      <configuration name="ListeImplTest.deleteTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ListeImplTest_insertDestructiveTest - 2018.04.25 at 14h 45m 18s.xml">
       <configuration name="ListeImplTest.insertDestructiveTest" configurationId="JUnit" />
@@ -847,15 +860,9 @@
     <history-entry file="ListeImplTest_insertDestructiveTest - 2018.04.25 at 14h 47m 30s.xml">
       <configuration name="ListeImplTest.insertDestructiveTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListeImplTest_insertTest - 2018.04.25 at 14h 40m 22s.xml">
-      <configuration name="ListeImplTest.insertTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ListeImplTest_insertTest - 2018.04.25 at 14h 40m 55s.xml">
-      <configuration name="ListeImplTest.insertTest" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7198000" />
+    <option name="totallyTimeSpent" value="8010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -878,7 +885,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3097015" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -925,7 +932,8 @@
     <MESSAGE value="concat(), sublist() und toString() implementiert.&#10;Funktioniert aber alles noch nicht, unter anderem weil size() nicht funktioniert, weil array.length() wohl doch die maximallänge eines Arrays zurück liefert." />
     <MESSAGE value="TestFile angelegt" />
     <MESSAGE value="TestFile fortschritt,    test size schlägt fehl (expected2, was 10) 10 ist Maximallänge des internen Arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestFile fortschritt,    test size schlägt fehl (expected2, was 10) 10 ist Maximallänge des internen Arrays" />
+    <MESSAGE value="size() entfernt. &#10;getSize() funktioniert.&#10;insert() geändert und getestet, funktioniert" />
+    <option name="LAST_COMMIT_MESSAGE" value="size() entfernt. &#10;getSize() funktioniert.&#10;insert() geändert und getestet, funktioniert" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1087,17 +1095,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/ListeImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ListeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="-451">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#1947#1948#0" expanded="true" />
@@ -1107,6 +1107,14 @@
             <element signature="e#3686#3687#0" expanded="true" />
             <element signature="e#3719#3720#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ListeImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

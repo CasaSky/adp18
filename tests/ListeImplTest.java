@@ -29,10 +29,10 @@ public class ListeImplTest {
         ListeString3.insert("Zwei", 2);
     }
 
-    @Test
-    public void sizeTest() throws Exception {
-
-    }
+//    @Test
+//    public void sizeTest() throws Exception {
+//
+//    }
 
     @Test
     public void insertTest() throws Exception {
@@ -68,7 +68,7 @@ public class ListeImplTest {
     }
 
     @Test (expected = IllegalArgumentException.class)
-    public void insertNegativeExceptionTest() throws Exception {
+    public void insertNegativePositionExceptionTest() throws Exception {
         Liste0.insert(-111,-1);
     }
 
@@ -78,12 +78,27 @@ public class ListeImplTest {
     }
 
     @Test (expected = ArrayIndexOutOfBoundsException.class)  // IllegalArgumentexception wird gar nicht erst gworfen.
-    public void insertAtPositionGreaterThanInternArraySizeTest() throws Exception {
+    public void insertAtPositionGreaterThanInternalArraySizeTest() throws Exception {
             ListeString2.insert("Two",2);
     }
 
     @Test
     public void deleteTest() throws Exception {
+        Liste1.delete(0);
+        assertEquals(0,Liste1.getSize());
+        Liste2.delete(0);
+        assertEquals(1,Liste2.getSize());
+        assertTrue(21 == Liste2.get(0));
+    }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void deleteNegativePositionTest() throws Exception {
+        Liste1.delete(-1);
+    }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void deletePositionGreaterThanOrEqualSize() throws Exception {
+        ListeString3.delete(3);
     }
 
     @Test
