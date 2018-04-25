@@ -64,6 +64,7 @@ public class ListeImpl<T> implements ListeInterface<T> {
     @Override
     public void clear() {
         arrayListe = (T[])new Object[maxSize];
+        this.size = 0;
     }
 
 //    @Override

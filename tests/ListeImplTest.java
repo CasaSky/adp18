@@ -120,7 +120,16 @@ public class ListeImplTest {
 
     @Test
     public void clearTest() throws Exception {
-
+        Liste0.clear();
+        Liste1.clear();
+        Liste2.clear();
+        ListeString2.clear();
+        ListeString3.clear();
+        assertTrue(0 == Liste0.getSize()
+                && 0 == Liste1.getSize()
+                && 0 == Liste2.getSize()
+                && 0 == ListeString2.getSize()
+                && 0 == ListeString3.getSize());
     }
 
     @Test
