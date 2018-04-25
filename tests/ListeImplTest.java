@@ -103,10 +103,24 @@ public class ListeImplTest {
 
     @Test
     public void getTest() throws Exception {
+        assertTrue(10 == Liste1.get(0));
+        assertTrue("Null" == ListeString3.get(0));
+        assertTrue("Zwei" == ListeString3.get(2));
+    }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void getNegativePositionTest() throws Exception {
+        Liste1.get(-1);
+    }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void getPositionGreaterThanOrEqualSize() throws Exception {
+        Liste1.get(1);
     }
 
     @Test
     public void clearTest() throws Exception {
+
     }
 
     @Test
