@@ -85,6 +85,9 @@ public class ListeImpl<T> implements ListeInterface<T> {
 
     @Override
     public ListeInterface<T> concat(ListeInterface<T> anotherListe) {
+        if(this.getSize() + anotherListe.getSize() > this.maxSize){
+            throw new IllegalArgumentException("Internal Array too small!");
+        }
         if(this.getSize() == 0) {
             this.arrayListe = anotherListe.getArrayListe();
             this.size = anotherListe.getSize();
@@ -130,7 +133,8 @@ public class ListeImpl<T> implements ListeInterface<T> {
         return arrayListe;
     }
 
-    public Boolean equals(ListeImpl<T> anotherListe) {
+    @Override
+    public boolean equals(ListeImpl<T> anotherListe) {
         if (anotherListe.getSize() != this.getSize()) { return false;   }
         for(int i=0; i<this.getSize(); i++) {
             if (this.get(i) != anotherListe.get(i)) {   return false;   }
