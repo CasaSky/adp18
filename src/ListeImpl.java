@@ -64,20 +64,55 @@ public class ListeImpl<T> implements ListeInterface<T> {
         arrayListe = (T[])new Object[maxSize];
     }
 
-    @Override
+//    @Override
+//    public ListeInterface<T> concat(ListeInterface<T> anotherListe) {
+//        if(getSize()==0) {
+//            this.arrayListe = anotherListe.getArrayListe();
+//        } else {
+//            //TODO
+//        }
+//       // return arrayListe;
+//        return null;
+//    }
+//
+//    @Override
+//    public ListeInterface<T> sublist(int startPosition, int endPosition) {
+//        return null;
+//    }
+
+
     public ListeInterface<T> concat(ListeInterface<T> anotherListe) {
-        if(getSize()==0) {
+        if(this.getSize() == 0) {
             this.arrayListe = anotherListe.getArrayListe();
         } else {
-            //TODO
+            for(int i = 0; i < anotherListe.size(); ++i) {
+                this.insert(anotherListe.get(i), this.getSize());
+            }
         }
-       // return arrayListe;
-        return null;
+
+        return this;
     }
 
-    @Override
     public ListeInterface<T> sublist(int startPosition, int endPosition) {
-        return null;
+        ListeImpl resultListe = new ListeImpl(endPosition + 1 - startPosition);
+        int resultListeIndex = 0;
+
+        for(int i = startPosition; i <= endPosition; ++i) {
+            resultListe.insert(this.get(i), resultListeIndex);
+            ++resultListeIndex;
+        }
+
+        return resultListe;
+    }
+
+    public String toString() {
+        String resultString = "";
+
+        for(int i = 0; i < this.getSize(); ++i) {
+            resultString = resultString + this.get(i).toString() + ", ";
+        }
+
+        return resultString;
     }
 
     public int getSize() {
