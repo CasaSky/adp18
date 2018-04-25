@@ -83,21 +83,21 @@ public class ListeImpl<T> implements ListeInterface<T> {
 //        return null;
 //    }
 
-
+    @Override
     public ListeInterface<T> concat(ListeInterface<T> anotherListe) {
-//        if(this.getSize() == 0) {
-//            this.arrayListe = anotherListe.getArrayListe();
-//        } else {
+        if(this.getSize() == 0) {
+            this.arrayListe = anotherListe.getArrayListe();
+            this.size = anotherListe.getSize();
+        } else {
             for(int i = 0; i < anotherListe.getSize(); ++i) {
                 this.insert(anotherListe.get(i), this.getSize());  // statt this.getSize() mit Variable und hochzählen arbeiten, dann muss nicht jedes Mal über die Liste iteriert werden
             }
-//        }
-
+        }
         return this;
     }
 
     @Override
-    public ListeInterface<T> sublist(int startPosition, int endPosition) {
+    public ListeImpl<T> sublist(int startPosition, int endPosition) {
         ListeImpl resultListe = new ListeImpl(endPosition + 1 - startPosition);
         int resultListeIndex = 0;
 
@@ -125,8 +125,16 @@ public class ListeImpl<T> implements ListeInterface<T> {
         return size;
     }
 
-//    @Override
+    @Override
     public T[] getArrayListe() {
         return arrayListe;
+    }
+
+    public Boolean equals(ListeImpl<T> anotherListe) {
+        if (anotherListe.getSize() != this.getSize()) { return false;   }
+        for(int i=0; i<this.getSize(); i++) {
+            if (this.get(i) != anotherListe.get(i)) {   return false;   }
+        }
+        return true;
     }
 }

@@ -39,15 +39,19 @@ public interface ListeInterface<T> {
     * @param otherList != null
     * @return this list. must not be NULL, size must be sum of sizes of both lists
     */
-   ListeInterface<T> concat(ListeInterface<T> otherList);
-
+//   ListeInterface<T> concat(ListeInterface<T> otherList);
+   ListeInterface<T> concat(ListeInterface<T> anotherListe);
    /**
     * Computes sublist of elements of this list
     * @param startPosition 0 <= startPosition < liste.size(), index of element of receiver list that becomes first element in result list
     * @param endPosition 0 <= endPosition < liste.size(), index of element of receiver list that becomes last element in result list
     * @return subliste.size >= 1
     */
-   ListeInterface<T> sublist(int startPosition, int endPosition);
+//   ListeInterface<T> sublist(int startPosition, int endPosition);
+   ListeImpl<T> sublist(int startPosition, int endPosition);
 
-//   T[] getArrayListe();
+
+   T[] getArrayListe();
+
+
 }
