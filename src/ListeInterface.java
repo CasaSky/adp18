@@ -49,5 +49,5 @@ public interface ListeInterface<T> {
     */
    ListeInterface<T> sublist(int startPosition, int endPosition);
 
-   T[] getArrayListe();
+//   T[] getArrayListe();
 }
