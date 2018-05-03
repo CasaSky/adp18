@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="125b7fe4-75f7-4235-8383-96b09438594b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Liste2ChainImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Liste2ChainImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Liste2ChainImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Liste2ChainImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Liste2ChainImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Liste2ChainImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,13 +16,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49229583">
+    <splitter split-orientation="horizontal" split-proportion="0.5084746">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ListeImpl.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ListeImpl.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ListeImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-270">
+                <state relative-caret-position="-495">
                   <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
                   <folding>
                     <element signature="e#3834#3835#0" expanded="true" />
@@ -54,6 +52,15 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Main.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -61,21 +68,19 @@
           <file leaf-file-name="Liste2ChainImpl.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Liste2ChainImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+                <state relative-caret-position="660">
+                  <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
                   <folding>
                     <element signature="e#300#301#0" expanded="true" />
                     <element signature="e#332#333#0" expanded="true" />
-                    <element signature="e#1185#1186#0" expanded="true" />
-                    <element signature="e#1212#1213#0" expanded="true" />
-                    <element signature="e#1345#1346#0" expanded="true" />
-                    <element signature="e#1372#1373#0" expanded="true" />
-                    <element signature="e#1457#1458#0" expanded="true" />
-                    <element signature="e#1484#1485#0" expanded="true" />
-                    <element signature="e#1532#1533#0" expanded="true" />
-                    <element signature="e#1559#1560#0" expanded="true" />
-                    <element signature="e#1629#1630#0" expanded="true" />
-                    <element signature="e#1657#1658#0" expanded="true" />
+                    <element signature="e#2316#2317#0" expanded="true" />
+                    <element signature="e#2343#2344#0" expanded="true" />
+                    <element signature="e#2428#2429#0" expanded="true" />
+                    <element signature="e#2455#2456#0" expanded="true" />
+                    <element signature="e#2503#2504#0" expanded="true" />
+                    <element signature="e#2530#2531#0" expanded="true" />
+                    <element signature="e#2600#2601#0" expanded="true" />
+                    <element signature="e#2628#2629#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -110,8 +115,8 @@
           <file leaf-file-name="Liste2ChainImplTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/Liste2ChainImplTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+                <state relative-caret-position="106">
+                  <caret line="92" column="20" lean-forward="true" selection-start-line="95" selection-start-column="12" selection-end-line="105" selection-end-column="44" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -138,9 +143,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tests/ListeImplTest.java" />
-        <option value="$PROJECT_DIR$/tests/Liste2ChainImplTest.java" />
         <option value="$PROJECT_DIR$/src/Node.java" />
+        <option value="$PROJECT_DIR$/tests/Liste2ChainImplTest.java" />
         <option value="$PROJECT_DIR$/src/Liste2ChainImpl.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -225,7 +231,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ListeImplTest.getArrayListeTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="adp18" />
+    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -273,30 +283,13 @@
       <option name="moduleName" value="" />
       <option name="trusted" value="true" />
     </configuration>
-    <configuration name="ListeImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Liste2ChainImplTest.getTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="adp18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListeImplTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ListeImplTest.getArrayListeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="adp18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListeImplTest" />
-      <option name="METHOD_NAME" value="getArrayListeTest" />
+      <option name="MAIN_CLASS_NAME" value="Liste2ChainImplTest" />
+      <option name="METHOD_NAME" value="getTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -307,13 +300,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ListeImplTest.getSizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Liste2ChainImplTest.insertDestructiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="adp18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListeImplTest" />
-      <option name="METHOD_NAME" value="getSizeTest" />
+      <option name="MAIN_CLASS_NAME" value="Liste2ChainImplTest" />
+      <option name="METHOD_NAME" value="insertDestructiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -324,30 +317,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ListeImplTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Liste2ChainImplTest.insertNonDestructiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="adp18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListeImplTest" />
+      <option name="MAIN_CLASS_NAME" value="Liste2ChainImplTest" />
+      <option name="METHOD_NAME" value="insertNonDestructiveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Liste2ChainImplTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adp18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Liste2ChainImplTest" />
       <option name="METHOD_NAME" value="insertTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ListeImplTest.toStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="adp18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListeImplTest" />
-      <option name="METHOD_NAME" value="toStringTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -716,19 +709,19 @@
       <envs />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ListeImplTest.getSizeTest" />
-      <item itemvalue="JUnit.ListeImplTest.toStringTest" />
-      <item itemvalue="JUnit.ListeImplTest.getArrayListeTest" />
-      <item itemvalue="JUnit.ListeImplTest" />
-      <item itemvalue="JUnit.ListeImplTest.insertTest" />
+      <item itemvalue="JUnit.Liste2ChainImplTest.insertTest" />
+      <item itemvalue="JUnit.Liste2ChainImplTest.getTest" />
+      <item itemvalue="JUnit.Liste2ChainImplTest.insertDestructiveTest" />
+      <item itemvalue="JUnit.Liste2ChainImplTest.insertNonDestructiveTest" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ListeImplTest.getArrayListeTest" />
-        <item itemvalue="JUnit.ListeImplTest" />
-        <item itemvalue="JUnit.ListeImplTest.insertTest" />
-        <item itemvalue="JUnit.ListeImplTest.toStringTest" />
-        <item itemvalue="JUnit.ListeImplTest.getSizeTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Liste2ChainImplTest.insertNonDestructiveTest" />
+        <item itemvalue="JUnit.Liste2ChainImplTest.insertDestructiveTest" />
+        <item itemvalue="JUnit.Liste2ChainImplTest.insertTest" />
+        <item itemvalue="JUnit.Liste2ChainImplTest.getTest" />
       </list>
     </recent_temporary>
   </component>
@@ -743,7 +736,7 @@
       <option name="presentableId" value="Default" />
       <updated>1524484250080</updated>
       <workItem from="1524484251466" duration="106000" />
-      <workItem from="1525337745506" duration="4997000" />
+      <workItem from="1525337745506" duration="10072000" />
     </task>
     <task id="LOCAL-00001" summary="concat(), sublist() und toString() implementiert.&#10;Funktioniert aber alles noch nicht, unter anderem weil size() nicht funktioniert, weil array.length() wohl doch die maximallänge eines Arrays zurück liefert.">
       <created>1524650686730</created>
@@ -801,43 +794,57 @@
       <option name="project" value="LOCAL" />
       <updated>1524663816313</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Liste2ChainImpl angelegt und insert teilweise implementiert.&#10;Nicht sicher ob sie es so gemeint hat, hab sie grafragt, aber hat noch nicht geantwortet.&#10;Precondition Checks fehlen noch.">
+      <created>1525344298738</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1525344298738</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Liste2ChainImpl Precondition Checks eingefügt.">
+      <created>1525352779731</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1525352779731</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ListeImplTest - 2018.04.26 at 00h 49m 18s.xml">
-      <configuration name="ListeImplTest" configurationId="JUnit" />
+    <history-entry file="Liste2ChainImplTest_insertTest - 2018.05.03 at 21h 54m 45s.xml">
+      <configuration name="Liste2ChainImplTest.insertTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListeImplTest - 2018.04.26 at 01h 00m 43s.xml">
-      <configuration name="ListeImplTest" configurationId="JUnit" />
+    <history-entry file="Liste2ChainImplTest_insertTest - 2018.05.03 at 21h 56m 05s.xml">
+      <configuration name="Liste2ChainImplTest.insertTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListeImplTest_getArrayListeTest - 2018.04.26 at 00h 42m 33s.xml">
-      <configuration name="ListeImplTest.getArrayListeTest" configurationId="JUnit" />
+    <history-entry file="Liste2ChainImplTest_insertTest - 2018.05.03 at 21h 56m 28s.xml">
+      <configuration name="Liste2ChainImplTest.insertTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListeImplTest_getArrayListeTest - 2018.04.26 at 00h 42m 41s.xml">
-      <configuration name="ListeImplTest.getArrayListeTest" configurationId="JUnit" />
+    <history-entry file="Liste2ChainImplTest_insertTest - 2018.05.03 at 22h 01m 42s.xml">
+      <configuration name="Liste2ChainImplTest.insertTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListeImplTest_getArrayListeTest - 2018.04.26 at 01h 00m 48s.xml">
-      <configuration name="ListeImplTest.getArrayListeTest" configurationId="JUnit" />
+    <history-entry file="Liste2ChainImplTest_insertTest - 2018.05.03 at 22h 02m 54s.xml">
+      <configuration name="Liste2ChainImplTest.insertTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListeImplTest_getArrayListeTest - 2018.04.26 at 01h 03m 22s.xml">
-      <configuration name="ListeImplTest.getArrayListeTest" configurationId="JUnit" />
+    <history-entry file="Liste2ChainImplTest_getTest - 2018.05.03 at 22h 17m 36s.xml">
+      <configuration name="Liste2ChainImplTest.getTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListeImplTest_insertTest - 2018.04.26 at 00h 45m 41s.xml">
-      <configuration name="ListeImplTest.insertTest" configurationId="JUnit" />
+    <history-entry file="Liste2ChainImplTest_insertTest - 2018.05.03 at 22h 17m 57s.xml">
+      <configuration name="Liste2ChainImplTest.insertTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListeImplTest_insertTest - 2018.04.26 at 00h 48m 49s.xml">
-      <configuration name="ListeImplTest.insertTest" configurationId="JUnit" />
+    <history-entry file="Liste2ChainImplTest_insertDestructiveTest - 2018.05.03 at 22h 18m 28s.xml">
+      <configuration name="Liste2ChainImplTest.insertDestructiveTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListeImplTest_insertTest - 2018.04.26 at 00h 48m 54s.xml">
-      <configuration name="ListeImplTest.insertTest" configurationId="JUnit" />
+    <history-entry file="Liste2ChainImplTest_insertNonDestructiveTest - 2018.05.03 at 22h 21m 35s.xml">
+      <configuration name="Liste2ChainImplTest.insertNonDestructiveTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListeImplTest_insertTest - 2018.04.26 at 00h 49m 08s.xml">
-      <configuration name="ListeImplTest.insertTest" configurationId="JUnit" />
+    <history-entry file="Liste2ChainImplTest_insertNonDestructiveTest - 2018.05.03 at 22h 25m 08s.xml">
+      <configuration name="Liste2ChainImplTest.insertNonDestructiveTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22034000" />
+    <option name="totallyTimeSpent" value="27109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1358" height="814" extended-state="6" />
@@ -845,15 +852,16 @@
     <layout>
       <window_info anchor="right" id="Palette" order="12" />
       <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32894737" />
       <window_info anchor="right" id="Palette&#9;" order="16" />
       <window_info id="Image Layers" order="14" />
       <window_info anchor="right" id="Capture Analysis" order="17" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="bottom" id="Run" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="16" weight="0.32894737" />
       <window_info id="Capture Tool" order="11" />
       <window_info id="Designer" order="12" />
       <window_info content_ui="combo" id="Project" order="1" weight="0.21417566" />
@@ -864,7 +872,6 @@
       <window_info anchor="right" id="Theme Preview" order="18" />
       <window_info id="Favorites" order="15" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.329602" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info id="Nl-Palette" order="10" />
@@ -923,7 +930,9 @@
     <MESSAGE value="get() getestet, funktioniert" />
     <MESSAGE value="clear() geändert und getestet, funktioniert." />
     <MESSAGE value="equals() implementiert, assertEquals spackt trotzdem rum.&#10;concat getestet, aber noch nicht fertig." />
-    <option name="LAST_COMMIT_MESSAGE" value="equals() implementiert, assertEquals spackt trotzdem rum.&#10;concat getestet, aber noch nicht fertig." />
+    <MESSAGE value="Liste2ChainImpl angelegt und insert teilweise implementiert.&#10;Nicht sicher ob sie es so gemeint hat, hab sie grafragt, aber hat noch nicht geantwortet.&#10;Precondition Checks fehlen noch." />
+    <MESSAGE value="Liste2ChainImpl Precondition Checks eingefügt." />
+    <option name="LAST_COMMIT_MESSAGE" value="Liste2ChainImpl Precondition Checks eingefügt." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1177,28 +1186,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Object.java" />
     <entry file="file://$PROJECT_DIR$/src/ListeInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Liste2ChainImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1211,13 +1203,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ListeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
+        <state relative-caret-position="-495">
           <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding>
             <element signature="e#3834#3835#0" expanded="true" />
             <element signature="e#3861#3862#0" expanded="true" />
             <element signature="e#3909#3910#0" expanded="true" />
             <element signature="e#3942#3943#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Liste2ChainImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="92" column="20" lean-forward="true" selection-start-line="95" selection-start-column="12" selection-end-line="105" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1248,22 +1250,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Liste2ChainImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-          <folding>
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#1185#1186#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
-            <element signature="e#1372#1373#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
-            <element signature="e#1484#1485#0" expanded="true" />
-            <element signature="e#1532#1533#0" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
-            <element signature="e#1629#1630#0" expanded="true" />
-            <element signature="e#1657#1658#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
