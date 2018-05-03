@@ -17,12 +17,19 @@ public class Liste2ChainImpl<T> implements ListeInterface<T> {
 
     @Override
     public void insert(T element, int position) {
+        if (element == null){
+            throw new IllegalArgumentException("Element must not be null!");
+        }
+        if (position<0 || position > this.size) {
+            throw new IllegalArgumentException("Position must be greater than 0 and lower or equal than size of list!");
+        }
         Node nodeToInsert = new Node(element);
         if(position == 0){
             this.head = nodeToInsert;
             this.tail = nodeToInsert;
             nodeToInsert.setPosition(position);
-        } if (position == this.size) {
+        }
+        if (position == this.size) {
             this.tail.setSuccessor(nodeToInsert);
             nodeToInsert.setPredecessor(this.tail);
             this.tail = nodeToInsert;
