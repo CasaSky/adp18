@@ -29,6 +29,11 @@ public class Liste2ChainImpl<T> implements ListeInterface<T> {
             this.tail = nodeToInsert;
             nodeToInsert.setPosition(position);
         }
+        if (position == 0) {
+            this.head.setPredecessor(nodeToInsert);
+            nodeToInsert.setSuccessor(this.head);
+            this.head = nodeToInsert;
+        }
         if (position == this.size) {
             this.tail.setSuccessor(nodeToInsert);
             nodeToInsert.setPredecessor(this.tail);

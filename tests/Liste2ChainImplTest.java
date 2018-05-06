@@ -10,6 +10,7 @@ public class Liste2ChainImplTest {
     Liste2ChainImpl<String> listeString2;
     Liste2ChainImpl<String> listeString3;
     Liste2ChainImpl<String> listeString10;
+    Liste2ChainImpl<Integer> liste321;
 //    Integer[] internalArrayListe0;
 //    Integer[] internalArrayListe1;
 //    Integer[] internalArrayListe2;
@@ -42,6 +43,10 @@ public class Liste2ChainImplTest {
         listeString10.insert("Sieben",7);
         listeString10.insert("Acht",8);
         listeString10.insert("Neun",9);
+        liste321 = new Liste2ChainImpl<>();
+        liste321.insert(1,0);
+        liste321.insert(2,0);
+        liste321.insert(3,0);
 //        internalArrayListe0 = new Integer[10];
 //        internalArrayListe1 = new Integer[11];
 //        internalArrayListe1[0] = 10;
@@ -87,23 +92,26 @@ public class Liste2ChainImplTest {
         assertTrue("Null" == listeString3.get(0));
         assertTrue("Eins" == listeString3.get(1));
         assertTrue("Zwei" == listeString3.get(2));
+        assertTrue(3 == liste321.get(0));
+        assertTrue(2 == liste321.get(1));
+        assertTrue(1 == liste321.get(2));
     }
 
     @Test
     public void insertNonDestructiveTest() throws Exception {
         liste1.insert(100,0);
         assertTrue(100 == liste1.get(0));
-//        assertTrue(10 == liste1.get(1));
-//        assertTrue(2 == liste1.getSize());
-//        liste2.insert(200,0);
-//        liste2.insert(201,1);
-//        assertTrue(200 == liste2.get(0));
-//        assertTrue(201 == liste2.get(1));
-//        assertTrue(20 == liste2.get(2));
-//        assertTrue(21 == liste2.get(3));
-//        assertTrue(4 == liste2.getSize());
-//        liste2.insert(202,2);
-//        assertTrue(5 == liste2.getSize());
+        assertTrue(10 == liste1.get(1));
+        assertTrue(2 == liste1.getSize());
+        liste2.insert(200,0);
+        liste2.insert(201,1);
+        assertTrue(200 == liste2.get(0));
+        assertTrue(201 == liste2.get(1));
+        assertTrue(20 == liste2.get(2));
+        assertTrue(21 == liste2.get(3));
+        assertTrue(4 == liste2.getSize());
+        liste2.insert(202,2);
+        assertTrue(5 == liste2.getSize());
     }
 
     @Test (expected = IllegalArgumentException.class)
