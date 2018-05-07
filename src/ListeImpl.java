@@ -133,8 +133,8 @@ public class ListeImpl<T> implements ListeInterface<T> {
         return arrayListe;
     }
 
-    @Override
-    public boolean equals(ListeImpl<T> anotherListe) {
+//    @Override
+    public boolean equals(ListeInterface<T> anotherListe) {
         if (anotherListe.getSize() != this.getSize()) { return false;   }
         for(int i=0; i<this.getSize(); i++) {
             if (this.get(i) != anotherListe.get(i)) {   return false;   }

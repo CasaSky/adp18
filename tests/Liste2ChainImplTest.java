@@ -255,4 +255,16 @@ public class Liste2ChainImplTest {
 //        assertArrayEquals(internalArrayListeString10, listeString10.getArrayListe());
     }
 
+
+    @Test
+    public void equalsTest() {
+        Liste2ChainImpl newListe0 = new Liste2ChainImpl();
+        assertTrue(liste0.equals(newListe0));
+        Liste2ChainImpl newListeString3 = new Liste2ChainImpl();
+        newListeString3.insert("Null", 0);
+        newListeString3.insert("Eins", 1);
+        newListeString3.insert("Zwei", 2);
+        assertTrue(listeString3.equals(newListeString3));
+//        assertEquals(listeString3, newListeString3);
+    }
 }

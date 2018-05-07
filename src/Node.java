@@ -2,7 +2,6 @@ public class Node<T> {
     public T data;
     public Node successor;
     public Node predecessor;
-    public int position;
 
     public Node(T data) {
         this.data = data;
@@ -34,11 +33,13 @@ public class Node<T> {
         this.predecessor = predecessor;
     }
 
-    public int getPosition() {
-        return position;
-    }
-
-    public void setPosition(int position) {
-        this.position = position;
+    public boolean equals(Node anotherNode){
+        if ((this.getData().equals(anotherNode.getData())
+                && (this.getSuccessor().equals(anotherNode.getSuccessor()) || (this.getSuccessor() == null && anotherNode.getSuccessor() == null) )
+                && (this.getPredecessor().equals(anotherNode.getPredecessor()) || (this.getPredecessor() == null && anotherNode.getPredecessor() == null)))){
+            return true;
+        }
+        return false;
     }
 }
+

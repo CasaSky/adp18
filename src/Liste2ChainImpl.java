@@ -27,7 +27,7 @@ public class Liste2ChainImpl<T> implements ListeInterface<T> {
         if(this.size == 0){
             this.head = nodeToInsert;
             this.tail = nodeToInsert;
-            nodeToInsert.setPosition(position);
+//            nodeToInsert.setPosition(position);
         }
         if (position == 0) {
             this.head.setPredecessor(nodeToInsert);
@@ -97,7 +97,8 @@ public class Liste2ChainImpl<T> implements ListeInterface<T> {
 
     @Override
     public void clear() {
-
+        this.head = null;
+        this.tail = null;
     }
 
     @Override
@@ -115,9 +116,24 @@ public class Liste2ChainImpl<T> implements ListeInterface<T> {
         return null;
     }
 
-    @Override
-    public boolean equals(ListeImpl<T> anotherListe) {
-        return false;
+//    @Override
+    public boolean equals(Liste2ChainImpl<T> anotherListe) {
+        if(this.getSize() != anotherListe.getSize()){
+            return false;
+        }
+        if(this.getSize()==0 && anotherListe.getSize()==0){
+            return true;
+        }
+//        if (!(this.getHead().equals(anotherListe.getHead()))
+//                || !(this.getTail().equals(anotherListe.getTail()))){
+//            return false;
+//        }
+        for(int i=0; i<this.size; i++){
+            if(!this.get(i).equals(anotherListe.get(i))){
+                return false;
+            }
+        }
+        return true;
     }
 
     public Node getHead() {

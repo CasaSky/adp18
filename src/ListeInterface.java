@@ -54,5 +54,7 @@ public interface ListeInterface<T> {
    T[] getArrayListe();
 
 
-   boolean equals(ListeImpl<T> anotherListe);
+
+
+//   boolean equals(ListeInterface<T> anotherListe);
 }

@@ -233,4 +233,15 @@ public class ListeImplTest {
         assertArrayEquals(internalArrayListeString10, listeString10.getArrayListe());
     }
 
+    @Test
+    public void equalsTest() {
+        ListeImpl newListe0 = new ListeImpl(5);
+        assertTrue(liste0.equals(newListe0));
+        ListeImpl newListeString3 = new ListeImpl(222);
+        newListeString3.insert("Null",0);
+        newListeString3.insert("Eins", 1);
+        newListeString3.insert("Zwei", 2);
+        assertTrue(listeString3.equals(newListeString3));
+        assertFalse(liste0.equals(newListeString3));
+    }
 }
