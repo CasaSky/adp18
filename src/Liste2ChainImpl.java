@@ -54,7 +54,28 @@ public class Liste2ChainImpl<T> implements ListeInterface<T> {
 
     @Override
     public void delete(int position) {
-
+        if (position<0 || position>=this.size){
+            throw new IllegalArgumentException("Position must be greater than or equal 0 and lower than size of list!");
+        }
+        if (position == 0){
+            Node successorOfHead = this.head.getSuccessor();
+            successorOfHead.setPredecessor(null);
+            this.head = successorOfHead;
+        }
+        if(this.size == 1){
+            this.head = null;
+            this.tail = null;
+        } else {
+            Node actualNode = this.head;
+            for (int i=0; i<= position; i++){
+                if (i == position-1){
+                    Node successorOfSuccessor = actualNode.getSuccessor().getSuccessor();
+                    actualNode.setSuccessor(successorOfSuccessor);
+                    successorOfSuccessor.setPredecessor(actualNode);
+                }
+            }
+        }
+        this.size--;
     }
 
     @Override

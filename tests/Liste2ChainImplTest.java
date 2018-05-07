@@ -146,9 +146,13 @@ public class Liste2ChainImplTest {
     public void deleteTest() throws Exception {
         liste1.delete(0);
         assertEquals(0, liste1.getSize());
+        assertNull(liste1.getHead());
+        assertNull(liste1.getTail());
         liste2.delete(0);
         assertEquals(1, liste2.getSize());
         assertTrue(21 == liste2.get(0));
+        assertEquals(21, liste2.getHead().getData());
+        assertEquals(21, liste2.getTail().getData());
     }
 
     @Test (expected = IllegalArgumentException.class)
