@@ -99,4 +99,12 @@ public class Liste2ChainImpl<T> implements ListeInterface<T> {
         return false;
     }
 
+    public Node getHead() {
+        return this.head;
+    }
+
+    public Node getTail() {
+        return this.tail;
+    }
+
 }

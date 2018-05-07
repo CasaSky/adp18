@@ -81,12 +81,23 @@ public class Liste2ChainImplTest {
     @Test
     public void insertTest() throws Exception {
         assertTrue(0 == liste0.getSize());
+        assertNull(liste0.getHead());
+        assertNull(liste0.getTail());
         assertTrue(1 == liste1.getSize());
-        liste1.insert(10,0);
+        assertNotNull(liste1.getHead());
+        assertNotNull(liste1.getTail());
+        assertEquals(10, liste1.getHead().getData());
+        assertEquals(10, liste1.getTail().getData());
+        liste1.insert(9,0);
+        assertEquals(9, liste1.getHead().getData());
+        assertEquals(10, liste1.getTail().getData());
         assertTrue(2 == liste2.getSize());
-        assertTrue(2 == liste2.getSize());
+        assertEquals(20, liste2.getHead().getData());
+        assertEquals(21, liste2.getTail().getData());
         assertTrue(3 == listeString3.getSize());
-        assertTrue(10 == liste1.get(0));
+        assertEquals("Null", listeString3.getHead().getData());
+        assertEquals("Zwei", listeString3.getTail().getData());
+        assertTrue(9 == liste1.get(0));
         assertTrue(20 == liste2.get(0));
         assertTrue(21 == liste2.get(1));
         assertTrue("Null" == listeString3.get(0));
@@ -95,6 +106,8 @@ public class Liste2ChainImplTest {
         assertTrue(3 == liste321.get(0));
         assertTrue(2 == liste321.get(1));
         assertTrue(1 == liste321.get(2));
+        assertEquals(3, liste321.getHead().getData());
+        assertEquals(1, liste321.getTail().getData());
     }
 
     @Test
@@ -116,7 +129,7 @@ public class Liste2ChainImplTest {
 
     @Test (expected = IllegalArgumentException.class)
     public void insertNullExceptionTest() throws Exception {
-        liste0.insert(null,1);
+        liste0.insert(null,0);
     }
 
     @Test (expected = IllegalArgumentException.class)
@@ -126,12 +139,7 @@ public class Liste2ChainImplTest {
 
     @Test (expected = IllegalArgumentException.class)
     public void insertAtPositionGreaterThanSizeTest() throws Exception {
-        liste0.insert(2,2);
-    }
-
-    @Test (expected = ArrayIndexOutOfBoundsException.class)  // IllegalArgumentexception wird gar nicht erst gworfen.
-    public void insertAtPositionGreaterThanInternalArraySizeTest() throws Exception {
-        listeString2.insert("Two",2);
+        liste0.insert(2,1);
     }
 
     @Test
