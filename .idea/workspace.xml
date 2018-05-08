@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="125b7fe4-75f7-4235-8383-96b09438594b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Node.java" afterPath="$PROJECT_DIR$/src/Node.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/NodeTest.java" afterPath="$PROJECT_DIR$/tests/NodeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Liste2ChainImplTest.java" afterPath="$PROJECT_DIR$/tests/Liste2ChainImplTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +47,8 @@
       <file leaf-file-name="Liste2ChainImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Liste2ChainImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4548">
-              <caret line="266" column="57" lean-forward="true" selection-start-line="266" selection-start-column="57" selection-end-line="266" selection-end-column="57" />
+            <state relative-caret-position="952">
+              <caret line="282" column="58" lean-forward="false" selection-start-line="282" selection-start-column="58" selection-end-line="282" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,7 +84,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4180">
               <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-              <folding />
+              <folding>
+                <element signature="e#0#25830#0" expanded="false" />
+                <element signature="e#5748#5749#0" expanded="false" />
+                <element signature="e#5784#5785#0" expanded="false" />
+                <element signature="e#10065#10066#0" expanded="false" />
+                <element signature="e#10148#10149#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,9 +139,9 @@
         <option value="$PROJECT_DIR$/src/Liste2ChainImpl.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/tests/ListeImplTest.java" />
-        <option value="$PROJECT_DIR$/tests/Liste2ChainImplTest.java" />
         <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/tests/NodeTest.java" />
+        <option value="$PROJECT_DIR$/tests/Liste2ChainImplTest.java" />
       </list>
     </option>
   </component>
@@ -804,7 +809,7 @@
       <updated>1524484250080</updated>
       <workItem from="1524484251466" duration="106000" />
       <workItem from="1525337745506" duration="10072000" />
-      <workItem from="1525777413585" duration="706000" />
+      <workItem from="1525777413585" duration="1323000" />
     </task>
     <task id="LOCAL-00001" summary="concat(), sublist() und toString() implementiert.&#10;Funktioniert aber alles noch nicht, unter anderem weil size() nicht funktioniert, weil array.length() wohl doch die maximallänge eines Arrays zurück liefert.">
       <created>1524650686730</created>
@@ -876,24 +881,31 @@
       <option name="project" value="LOCAL" />
       <updated>1525352779731</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="equals() funktionieren, getestet">
+      <created>1525778182530</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1525778182530</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="Liste2ChainImplTest_equalsTest - 2018.05.08 at 13h 12m 58s.xml">
       <configuration name="Liste2ChainImplTest.equalsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Liste2ChainImplTest_insertTest - 2018.05.06 at 22h 31m 29s.xml">
-      <configuration name="Liste2ChainImplTest.insertTest" configurationId="JUnit" />
+    <history-entry file="Liste2ChainImplTest_equalsTest - 2018.05.08 at 13h 17m 04s.xml">
+      <configuration name="Liste2ChainImplTest.equalsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Liste2ChainImplTest_insertTest - 2018.05.06 at 22h 36m 53s.xml">
-      <configuration name="Liste2ChainImplTest.insertTest" configurationId="JUnit" />
+    <history-entry file="Liste2ChainImplTest_equalsTest - 2018.05.08 at 13h 22m 20s.xml">
+      <configuration name="Liste2ChainImplTest.equalsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Liste2ChainImplTest_insertTest - 2018.05.06 at 22h 39m 13s.xml">
-      <configuration name="Liste2ChainImplTest.insertTest" configurationId="JUnit" />
+    <history-entry file="Liste2ChainImplTest_equalsTest - 2018.05.08 at 13h 24m 01s.xml">
+      <configuration name="Liste2ChainImplTest.equalsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Liste2ChainImplTest_insertTest - 2018.05.06 at 22h 40m 15s.xml">
-      <configuration name="Liste2ChainImplTest.insertTest" configurationId="JUnit" />
+    <history-entry file="Liste2ChainImplTest_equalsTest - 2018.05.08 at 13h 25m 28s.xml">
+      <configuration name="Liste2ChainImplTest.equalsTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ListeImplTest_insertTest - 2018.05.06 at 22h 36m 06s.xml">
       <configuration name="ListeImplTest.insertTest" configurationId="JUnit" />
@@ -912,7 +924,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29381000" />
+    <option name="totallyTimeSpent" value="29998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -928,7 +940,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -999,7 +1011,8 @@
     <MESSAGE value="equals() implementiert, assertEquals spackt trotzdem rum.&#10;concat getestet, aber noch nicht fertig." />
     <MESSAGE value="2Chain insert Tests vervollständigt" />
     <MESSAGE value="2Chain delete() implementiert und getestet (nicht soo ausführlich)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2Chain delete() implementiert und getestet (nicht soo ausführlich)" />
+    <MESSAGE value="equals() funktionieren, getestet" />
+    <option name="LAST_COMMIT_MESSAGE" value="equals() funktionieren, getestet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1109,7 +1122,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="e#0#25830#0" expanded="false" />
+            <element signature="e#5748#5749#0" expanded="false" />
+            <element signature="e#5784#5785#0" expanded="false" />
+            <element signature="e#10065#10066#0" expanded="false" />
+            <element signature="e#10148#10149#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1390,7 +1409,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4180">
           <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="e#0#25830#0" expanded="false" />
+            <element signature="e#5748#5749#0" expanded="false" />
+            <element signature="e#5784#5785#0" expanded="false" />
+            <element signature="e#10065#10066#0" expanded="false" />
+            <element signature="e#10148#10149#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1460,8 +1485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Liste2ChainImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4548">
-          <caret line="266" column="57" lean-forward="true" selection-start-line="266" selection-start-column="57" selection-end-line="266" selection-end-column="57" />
+        <state relative-caret-position="952">
+          <caret line="282" column="58" lean-forward="false" selection-start-line="282" selection-start-column="58" selection-end-line="282" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

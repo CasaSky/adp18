@@ -263,8 +263,23 @@ public class Liste2ChainImplTest {
         Liste2ChainImpl newListeString3 = new Liste2ChainImpl();
         newListeString3.insert("Null", 0);
         newListeString3.insert("Eins", 1);
+        assertFalse(listeString3.equals(newListeString3));
         newListeString3.insert("Zwei", 2);
         assertTrue(listeString3.equals(newListeString3));
-//        assertEquals(listeString3, newListeString3);
+        Liste2ChainImpl newListeString3a = new Liste2ChainImpl();
+        newListeString3a.insert("Zwei", 0);
+        newListeString3a.insert("Eins",0);
+        newListeString3a.insert("NUL",0);
+        assertFalse(newListeString3a.equals(listeString3));
+        Liste2ChainImpl newListeString3b = new Liste2ChainImpl();
+        newListeString3b.insert("Zwai",0);
+        newListeString3b.insert("Eins",0);
+        newListeString3b.insert("Null",0);
+        assertFalse(listeString3.equals(newListeString3b));
+        Liste2ChainImpl newListeString3c = new Liste2ChainImpl();
+        newListeString3c.insert("Zwei",0);
+        newListeString3c.insert("Eins",0);
+        newListeString3c.insert("Null",0);
+        assertTrue(listeString3.equals(newListeString3c));
     }
 }
