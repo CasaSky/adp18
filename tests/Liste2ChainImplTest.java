@@ -199,11 +199,6 @@ public class Liste2ChainImplTest {
         assertEquals("Null", listeString3.get(0));
     }
 
-    @Test (expected = IllegalArgumentException.class)
-    public void concatInternalArrayTooSmallExceptionTest() throws Exception {
-        listeString2.concat(listeString3);
-    }
-
     @Test
     public void sublistTest() throws Exception {
         Liste2ChainImpl resultListe;
@@ -233,13 +228,18 @@ public class Liste2ChainImplTest {
         liste2.sublist(1,2);
     }
 
-    @Test
-    public void toStringTest() throws Exception {
-        assertEquals("10, ", liste1.toString());
-        assertEquals("20, 21, ", liste2.toString());
-        assertEquals("", liste0.toString());
-        assertEquals("Null, Eins, Zwei, ", listeString3.toString());
+    @Test (expected = IllegalArgumentException.class)
+    public void sublistEndPositionSmallerThanStartPosition() throws Exception {
+        liste2.sublist(1,0);
     }
+
+//    @Test
+//    public void toStringTest() throws Exception {
+//        assertEquals("10, ", liste1.toString());
+//        assertEquals("20, 21, ", liste2.toString());
+//        assertEquals("", liste0.toString());
+//        assertEquals("Null, Eins, Zwei, ", listeString3.toString());
+//    }
 
     @Test
     public void getSizeTest() throws Exception {
