@@ -34,9 +34,13 @@ public class Node<T> {
     }
 
     public boolean equals(Node anotherNode){
-        if ((this.getData().equals(anotherNode.getData())
-                && (this.getSuccessor().equals(anotherNode.getSuccessor()) || (this.getSuccessor() == null && anotherNode.getSuccessor() == null) )
-                && (this.getPredecessor().equals(anotherNode.getPredecessor()) || (this.getPredecessor() == null && anotherNode.getPredecessor() == null)))){
+//        if ((this.getData().equals(anotherNode.getData())
+//                && (this.getSuccessor().equals(anotherNode.getSuccessor()) || (this.getSuccessor() == null && anotherNode.getSuccessor() == null) )
+//                && (this.getPredecessor().equals(anotherNode.getPredecessor()) || (this.getPredecessor() == null && anotherNode.getPredecessor() == null)))){
+//            return true;
+//        }
+//        return false;
+        if (this.getData() == anotherNode.getData()){
             return true;
         }
         return false;

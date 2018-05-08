@@ -43,9 +43,14 @@ public class NodeTest {
     }
 
     @Test
-    public void equalsTest() {
+    public void equalsTest() throws Exception {
         assertTrue(null == null);
         assertTrue(node1.equals(newNode1));
+        assertTrue(node2.equals(newNode2));
+        assertTrue(node3.equals(newNode3));
+        assertTrue(stringNode1.equals(newStringNode1));
+        assertTrue(stringNode2.equals(newStringNode2));
+        assertTrue(stringNode3.equals(newStringNode3));
     }
 
 
