@@ -147,7 +147,7 @@ public class Liste2ChainImpl<T> implements ListeInterface<T> {
         return null;
     }
 
-//    @Override
+    //@Override
     public boolean equals(Liste2ChainImpl<T> anotherListe) {
         if(this.getSize() != anotherListe.getSize()){
             return false;
