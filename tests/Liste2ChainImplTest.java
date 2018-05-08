@@ -11,12 +11,7 @@ public class Liste2ChainImplTest {
     Liste2ChainImpl<String> listeString3;
     Liste2ChainImpl<String> listeString10;
     Liste2ChainImpl<Integer> liste321;
-//    Integer[] internalArrayListe0;
-//    Integer[] internalArrayListe1;
-//    Integer[] internalArrayListe2;
-//    String[] internalArrayListeString2;
-//    String[] internalArrayListeString3;
-//    String[] internalArrayListeString10;
+
     @Before
     public void setUp() throws Exception {
         liste0 = new Liste2ChainImpl<>();
@@ -47,36 +42,8 @@ public class Liste2ChainImplTest {
         liste321.insert(1,0);
         liste321.insert(2,0);
         liste321.insert(3,0);
-//        internalArrayListe0 = new Integer[10];
-//        internalArrayListe1 = new Integer[11];
-//        internalArrayListe1[0] = 10;
-//        internalArrayListe2 = new Integer[12];
-//        internalArrayListe2[0] = 20;
-//        internalArrayListe2[1] = 21;
-//        internalArrayListeString2 = new String[2];
-//        internalArrayListeString2[0] = "Zero";
-//        internalArrayListeString2[1] = "One";
-//        internalArrayListeString3 = new String[21];
-//        internalArrayListeString3[0] = "Null";
-//        internalArrayListeString3[1] = "Eins";
-//        internalArrayListeString3[2] = "Zwei";
-//        internalArrayListeString10 = new String[10];
-//        internalArrayListeString10[0] = "Null";
-//        internalArrayListeString10[1] = "Eins";
-//        internalArrayListeString10[2] = "Zwei";
-//        internalArrayListeString10[3] = "Drei";
-//        internalArrayListeString10[4] = "Vier";
-//        internalArrayListeString10[5] = "Fuenf";
-//        internalArrayListeString10[6] = "Sechs";
-//        internalArrayListeString10[7] = "Sieben";
-//        internalArrayListeString10[8] = "Acht";
-//        internalArrayListeString10[9] = "Neun";
     }
 
-//    @Test
-//    public void sizeTest() throws Exception {
-//
-//    }
 
     @Test
     public void insertTest() throws Exception {
@@ -185,10 +152,26 @@ public class Liste2ChainImplTest {
     @Test
     public void clearTest() throws Exception {
         liste0.clear();
+        assertTrue(0 == liste0.getSize());
+        assertTrue(null == liste0.getHead());
+        assertTrue(null == liste0.getTail());
         liste1.clear();
+        assertTrue(0 == liste1.getSize());
+        assertTrue(null == liste1.getHead());
+        assertTrue(null == liste1.getTail());
         liste2.clear();
+        assertTrue(0 == liste2.getSize());
+        assertTrue(null == liste2.getHead());
+        assertTrue(null == liste2.getTail());
         listeString2.clear();
+        assertTrue(0 == listeString2.getSize());
+        assertTrue(null == listeString2.getHead());
+        assertTrue(null == listeString2.getTail());
         listeString3.clear();
+        assertTrue(0 ==listeString3.getSize());
+        assertTrue(null == listeString3.getHead());
+        assertTrue(null == listeString3.getTail());
+
         assertTrue(0 == liste0.getSize()
                 && 0 == liste1.getSize()
                 && 0 == liste2.getSize()
@@ -198,12 +181,13 @@ public class Liste2ChainImplTest {
 
     @Test
     public void concatTest() throws Exception {
+//        assertTrue(liste1.equals(liste0.concat(liste1)));
+//        assertTrue(liste0.concat(liste1).equals(liste1));
         liste0.concat(liste1);
         assertTrue(1 == liste0.getSize());
         assertTrue(10 == liste0.get(0));
         assertTrue(1 == liste1.getSize());
         assertTrue(10 == liste1.get(0));
-//        assertEquals(10, liste0.get(0));
         assertTrue(liste0.equals(liste1));
         assertFalse(liste0.equals(liste2));
         listeString3.concat(listeString2);
@@ -222,10 +206,31 @@ public class Liste2ChainImplTest {
 
     @Test
     public void sublistTest() throws Exception {
-        listeString10.sublist(0,2);
-        assertTrue(listeString3.equals(listeString10.sublist(0,2)));
-//        assertEquals(listeString3, listeString10.sublist(0,2));
+        Liste2ChainImpl resultListe;
+        resultListe = (Liste2ChainImpl) listeString10.sublist(0,2);
+        assertTrue(listeString3.equals(resultListe));
+//        listeString10.sublist(0,2);
+//        assertTrue(listeString3.equals(listeString10.sublist(0,2)));
+        assertTrue(3 == listeString10.sublist(0,2).getSize());
+        assertTrue("Null" == listeString10.sublist(0,2).get(0));
+        assertTrue("Eins" == listeString10.sublist(0,2).get(1));
+        assertTrue("Zwei" == listeString10.sublist(0,2).get(2));
+        assertTrue(1 == liste1.sublist(0,0).getSize());
+    }
 
+    @Test (expected = IllegalArgumentException.class)
+    public void sublistEmptyListTest() throws Exception {
+        liste0.sublist(0,0);
+    }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void sublistStartPositionTooLowTest() throws Exception {
+        liste1.sublist(-1,0);
+    }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void sublistEndPositionTooGreatTest() throws Exception {
+        liste2.sublist(1,2);
     }
 
     @Test

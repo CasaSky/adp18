@@ -100,7 +100,7 @@ public class ListeImpl<T> implements ListeInterface<T> {
     }
 
     @Override
-    public ListeImpl<T> sublist(int startPosition, int endPosition) {
+    public ListeInterface<T> sublist(int startPosition, int endPosition) {
         ListeImpl resultListe = new ListeImpl(endPosition + 1 - startPosition);
         int resultListeIndex = 0;
 

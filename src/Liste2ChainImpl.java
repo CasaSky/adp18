@@ -99,16 +99,47 @@ public class Liste2ChainImpl<T> implements ListeInterface<T> {
     public void clear() {
         this.head = null;
         this.tail = null;
+        this.size = 0;
     }
 
     @Override
     public ListeInterface<T> concat(ListeInterface<T> anotherListe) {
-        return null;
+        Liste2ChainImpl another2ChainListe;
+        another2ChainListe = (Liste2ChainImpl) anotherListe;
+        if(this.size==0){
+            this.head = another2ChainListe.getHead();
+            this.tail = another2ChainListe.getTail();
+            this.size = anotherListe.getSize();
+            return this;
+        }
+        if(anotherListe.getSize() == 0) {
+            return this;
+        }
+        another2ChainListe.getHead().setPredecessor(this.getTail());
+        this.tail.setSuccessor(another2ChainListe.getHead());
+        this.tail = another2ChainListe.getTail();
+        this.size = this.size + anotherListe.getSize();
+        return this;
     }
 
     @Override
-    public ListeImpl<T> sublist(int startPosition, int endPosition) {
-        return null;
+    public ListeInterface<T> sublist(int startPosition, int endPosition) {
+        if(startPosition<0 || startPosition >= this.size) {
+            throw new IllegalArgumentException("startPosition must be in Range of List-Element-Indexes!");
+        }
+        if(endPosition<0 || endPosition >= this.size) {
+            throw new IllegalArgumentException("endPosition must be in range of List-Element-Indexes!");
+        }
+        if (endPosition < startPosition) {
+            throw new IllegalArgumentException("endPosition must be greater than or equal to startPosition!");
+        }
+        Liste2ChainImpl<T> resultList = new Liste2ChainImpl<T>();
+        for(int i=endPosition; i>=startPosition; i--){
+            resultList.insert(this.get(i),0);
+        }
+        return resultList;
+
+
     }
 
     @Override
@@ -124,10 +155,10 @@ public class Liste2ChainImpl<T> implements ListeInterface<T> {
         if(this.getSize()==0 && anotherListe.getSize()==0){
             return true;
         }
-//        if (!(this.getHead().equals(anotherListe.getHead()))
-//                || !(this.getTail().equals(anotherListe.getTail()))){
-//            return false;
-//        }
+        if (!(this.getHead().equals(anotherListe.getHead()))
+                || !(this.getTail().equals(anotherListe.getTail()))){
+            return false;
+        }
         for(int i=0; i<this.size; i++){
             if(!this.get(i).equals(anotherListe.get(i))){
                 return false;
@@ -136,6 +167,7 @@ public class Liste2ChainImpl<T> implements ListeInterface<T> {
         return true;
     }
 
+
     public Node getHead() {
         return this.head;
     }
@@ -143,5 +175,6 @@ public class Liste2ChainImpl<T> implements ListeInterface<T> {
     public Node getTail() {
         return this.tail;
     }
+
 
 }

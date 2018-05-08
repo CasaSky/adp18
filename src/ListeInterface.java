@@ -1,3 +1,5 @@
+import com.sun.xml.internal.bind.v2.TODO;
+
 /**
  * Created by michelbrueger on 23.04.18.
  */
@@ -47,10 +49,10 @@ public interface ListeInterface<T> {
     * @param endPosition 0 <= endPosition < liste.size(), index of element of receiver list that becomes last element in result list
     * @return subliste.size >= 1
     */
-//   ListeInterface<T> sublist(int startPosition, int endPosition);
-   ListeImpl<T> sublist(int startPosition, int endPosition);
+   ListeInterface<T> sublist(int startPosition, int endPosition);
+//   ListeImpl<T> sublist(int startPosition, int endPosition);
 
-
+//das muss hier raus, weil nicht aufrufbar auf 2Chain-Liste
    T[] getArrayListe();
 
 

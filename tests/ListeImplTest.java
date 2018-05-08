@@ -176,6 +176,10 @@ public class ListeImplTest {
 
     @Test
     public void concatTest() throws Exception {
+        liste1.concat(liste0);
+        assertTrue(1 == liste1.getSize());
+        assertTrue(0 == liste0.getSize());
+        assertTrue(10 == liste1.get(0));
         liste0.concat(liste1);
         assertTrue(1 == liste0.getSize());
         assertTrue(10 == liste0.get(0));
