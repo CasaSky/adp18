@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="125b7fe4-75f7-4235-8383-96b09438594b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RandomListGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Liste2ChainImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Liste2ChainImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RandomListGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RandomListGenerator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,17 +36,23 @@
       <file leaf-file-name="Liste2ChainImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Liste2ChainImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="2175">
               <caret line="149" column="6" selection-start-line="149" selection-start-column="6" selection-end-line="149" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RandomListGenerator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RandomListGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RandomListGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="516">
+              <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+              <folding>
+                <element signature="e#2095#2096#0" expanded="true" />
+                <element signature="e#2135#2136#0" expanded="true" />
+                <element signature="e#2187#2188#0" expanded="true" />
+                <element signature="e#2208#2209#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,8 +60,8 @@
       <file leaf-file-name="Liste2ChainImplTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Liste2ChainImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2190">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+            <state relative-caret-position="546">
+              <caret line="47" column="60" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -131,13 +137,13 @@
         <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/tests/NodeTest.java" />
         <option value="$PROJECT_DIR$/tests/ListeImplTest.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/ListeInterface.java" />
         <option value="$PROJECT_DIR$/src/ListeImpl.java" />
         <option value="$PROJECT_DIR$/tests/Liste2ChainImplTest.java" />
         <option value="$PROJECT_DIR$/src/Liste2ChainImpl.java" />
         <option value="$PROJECT_DIR$/src/randomListGenerator.java" />
         <option value="$PROJECT_DIR$/src/RandomListGenerator.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -151,10 +157,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1394" />
-    <option name="y" value="-12" />
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="527" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -162,9 +167,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,6 +185,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,6 +196,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -215,7 +221,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Liste2ChainImplTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="adp18" />
+    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -271,23 +281,6 @@
       <option name="MAIN_CLASS_NAME" value="Liste2ChainImplTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Liste2ChainImplTest.sublistEmptyListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="adp18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Liste2ChainImplTest" />
-      <option name="METHOD_NAME" value="sublistEmptyListTest" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -499,18 +492,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Liste2ChainImplTest.sublistStartPositionTooLowTest" />
-      <item itemvalue="JUnit.Liste2ChainImplTest.sublistEmptyListTest" />
       <item itemvalue="JUnit.Liste2ChainImplTest.sublistEndPositionTooGreatTest" />
       <item itemvalue="JUnit.Liste2ChainImplTest.sublistEndPositionSmallerThanStartPosition" />
       <item itemvalue="JUnit.Liste2ChainImplTest" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.Liste2ChainImplTest" />
         <item itemvalue="JUnit.Liste2ChainImplTest.sublistEndPositionSmallerThanStartPosition" />
         <item itemvalue="JUnit.Liste2ChainImplTest.sublistEndPositionTooGreatTest" />
         <item itemvalue="JUnit.Liste2ChainImplTest.sublistStartPositionTooLowTest" />
-        <item itemvalue="JUnit.Liste2ChainImplTest.sublistEmptyListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -527,7 +520,8 @@
       <workItem from="1524484251466" duration="106000" />
       <workItem from="1525337745506" duration="10072000" />
       <workItem from="1525777413585" duration="8383000" />
-      <workItem from="1525813105141" duration="2441000" />
+      <workItem from="1525813105141" duration="2580000" />
+      <workItem from="1525865089764" duration="5460000" />
     </task>
     <task id="LOCAL-00001" summary="concat(), sublist() und toString() implementiert.&#10;Funktioniert aber alles noch nicht, unter anderem weil size() nicht funktioniert, weil array.length() wohl doch die maximallänge eines Arrays zurück liefert.">
       <created>1524650686730</created>
@@ -620,7 +614,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525785425027</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="RandomListGenerator angefangen">
+      <created>1525815590588</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1525815590588</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -656,52 +657,52 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39499000" />
+    <option name="totallyTimeSpent" value="45098000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1672" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="12" />
       <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3278867" />
       <window_info anchor="right" id="Palette&#9;" order="16" />
       <window_info id="Image Layers" order="14" />
       <window_info anchor="right" id="Capture Analysis" order="17" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="13" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.32089552" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.32992327" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.32026145" />
       <window_info anchor="bottom" id="Terminal" order="16" />
       <window_info id="Capture Tool" order="11" />
       <window_info id="Designer" order="12" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2531983" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20415778" />
       <window_info anchor="right" id="Database" order="15" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info id="UI Designer" order="13" />
       <window_info anchor="right" id="Theme Preview" order="18" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info id="Favorites" order="15" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3283582" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info id="Nl-Palette" order="10" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Properties" order="14" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Properties" order="14" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329602" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="Designer" order="4" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32089552" />
       <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329602" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32089552" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3297568" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="right" id="Properties" order="6" />
       <window_info anchor="bottom" id="Terminal" order="10" />
@@ -711,19 +712,19 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.3283582" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32992327" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3297568" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329602" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout-to-restore>
   </component>
@@ -747,7 +748,8 @@
     <MESSAGE value="equals() funktionieren, getestet" />
     <MESSAGE value="equals() funktionieren, ausführlich getestet" />
     <MESSAGE value="concat und sublist implementiert und getestet, equals spackt immernoch rum,  paar Fragen notiert" />
-    <option name="LAST_COMMIT_MESSAGE" value="concat und sublist implementiert und getestet, equals spackt immernoch rum,  paar Fragen notiert" />
+    <MESSAGE value="RandomListGenerator angefangen" />
+    <option name="LAST_COMMIT_MESSAGE" value="RandomListGenerator angefangen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1080,27 +1082,10 @@
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Object.java" />
-    <entry file="file://$PROJECT_DIR$/src/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/NodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="52" column="55" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1122,6 +1107,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Liste2ChainImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2175">
+          <caret line="149" column="6" selection-start-line="149" selection-start-column="6" selection-end-line="149" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Liste2ChainImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ListeInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -1129,27 +1131,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Liste2ChainImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2190">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state>
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Liste2ChainImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="149" column="6" selection-start-line="149" selection-start-column="6" selection-end-line="149" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RandomListGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="516">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+          <folding>
+            <element signature="e#2095#2096#0" expanded="true" />
+            <element signature="e#2135#2136#0" expanded="true" />
+            <element signature="e#2187#2188#0" expanded="true" />
+            <element signature="e#2208#2209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="47" column="60" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
         </state>
       </provider>
     </entry>
