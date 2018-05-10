@@ -42,7 +42,7 @@ public class Main {
 
         RandomListGenerator rlg = new RandomListGenerator();
 
-        ListeInterface testListe = rlg.generateRandomList(3,0,4,0,0);
+        ListeInterface testListe = rlg.generateRandomList(40000,0,40001,1,1);
         System.out.println(testListe);
         System.out.println(rlg.getRandomNumbersArray());
         System.out.println(rlg.getSizeOfRandomNumbersArray());
@@ -51,7 +51,10 @@ public class Main {
         System.out.println(rlg.getRandomNumbersArray()[1]);
         System.out.println(rlg.getRandomNumbersArray()[2]);
         System.out.println("-----------------------------------------------------------------------------------");
-        System.out.println(testListe.getSize());
+        System.out.println(testListe.getSize() + " = liste.getSize()");
+        for(int i=0; i<testListe.getSize(); i++){
+            System.out.println(testListe.get(i));
+        }
         System.out.println("Teständerung");
     }
 }
