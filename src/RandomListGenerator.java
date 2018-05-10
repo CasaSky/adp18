@@ -22,16 +22,16 @@ public class RandomListGenerator {
 //        for (int elem : randomNumbersArray){
 //        for(int i=0; i<randomNumbersArray.length; i++){
             switch (insertAt) {
-                case 0: for (int elem : randomNumbersArray){
-                            resultList.insert(elem,0);
+                case 0: for(int i=0; i<randomNumbersArray.length; i++){
+                            resultList.insert(randomNumbersArray[i],0);
                 }
                         break;
-                case 1: for (int elem : randomNumbersArray){
-                            resultList.insert(elem, computeRandomPosition(resultList));
+                case 1: for(int i=0; i<randomNumbersArray.length; i++){
+                            resultList.insert(randomNumbersArray[i], computeRandomPosition(resultList));
                 }
                         break;
-                case 2: for (int elem : randomNumbersArray){
-                            resultList.insert(elem, resultList.getSize());
+                case 2: for(int i=0; i<randomNumbersArray.length; i++){
+                            resultList.insert(randomNumbersArray[i], resultList.getSize());
                 }
                         break;
                 default: throw new IllegalArgumentException("Please insert correct value for \"insertAt\", 0 for insertion at beginning of list, 1 for insertion at random position, 2 for insertion at end of list ");

@@ -50,5 +50,8 @@ public class Main {
         System.out.println(rlg.getRandomNumbersArray()[0]);
         System.out.println(rlg.getRandomNumbersArray()[1]);
         System.out.println(rlg.getRandomNumbersArray()[2]);
+        System.out.println("-----------------------------------------------------------------------------------");
+        System.out.println(testListe.getSize());
+        System.out.println("Teständerung");
     }
 }
