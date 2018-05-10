@@ -53,8 +53,9 @@ public class Main {
         for(int elem : array){
             System.out.println(elem);
         }
-        System.out.println(array[1] + 5);
+        System.out.println(array[1] + 5); // fcksht
         System.out.println(array[2] + 5);
+
 
 
 
