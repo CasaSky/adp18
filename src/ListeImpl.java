@@ -14,18 +14,12 @@ public class ListeImpl<T> implements ListeInterface<T> {
         arrayListe = (T[])new Object[maxSize];
     }
 
-//    @Override
-//    public int size() {
-//        return 88;
-//    }
-
     public void arrayListeIncrease(){
         T[] copyArray = (T[]) new Object[maxSize *2];
         for(int i=0; i<this.size; i++){
             copyArray[i] = arrayListe[i];
         }
     }
-
 
     public void arrayListeDecrease(){
         T[] copyArray = (T[]) new Object[maxSize / 2];
@@ -34,6 +28,10 @@ public class ListeImpl<T> implements ListeInterface<T> {
         }
     }
 
+    public void arrayListeCheckSize(){
+        if(this.size >= maxSize/2) arrayListeIncrease();
+        if(this.size <= maxSize/3) arrayListeDecrease();
+    }
 
 
     @Override
@@ -44,9 +42,9 @@ public class ListeImpl<T> implements ListeInterface<T> {
         if (position < 0 || position > getSize()) {
             throw new IllegalArgumentException("Position must be greater than 0 and lower or equal than size of liste");
         }
-        if (position>maxSize) {
-            throw new IllegalArgumentException("The list is full and can not store more elements");  // IllegalArgumentException wird nicht geworfen, sondern ArrayIndexOutOfBoundsException
-        }
+//        if (position>maxSize) {
+//            throw new IllegalArgumentException("The list is full and can not store more elements");  // IllegalArgumentException wird nicht geworfen, sondern ArrayIndexOutOfBoundsException
+//        }
         arrayListe[position] = element;
         if (position == size) {
             size++;
