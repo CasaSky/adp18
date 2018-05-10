@@ -10,6 +10,7 @@ public class ListeImplTest {
     ListeImpl<Integer> liste0;
     ListeImpl<Integer> liste1;
     ListeImpl<Integer> liste2;
+    ListeImpl<Integer> liste3;
     ListeImpl<String> listeString2;
     ListeImpl<String> listeString3;
     ListeImpl<String> listeString10;
@@ -69,6 +70,10 @@ public class ListeImplTest {
         internalArrayListeString10[7] = "Sieben";
         internalArrayListeString10[8] = "Acht";
         internalArrayListeString10[9] = "Neun";
+        liste3 = new ListeImpl<>();
+        for(int i=0; i<3333; i++){
+            liste3.insert(i,i);
+        }
     }
 
 //    @Test
@@ -88,20 +93,68 @@ public class ListeImplTest {
         assertTrue("Null" == listeString3.get(0));
         assertTrue("Eins" == listeString3.get(1));
         assertTrue("Zwei" == listeString3.get(2));
+        liste0.insert(10,0);
+        liste0.insert(11,0);
+        liste0.insert(12,0);
+        liste0.insert(13,1);
+        assertTrue(4 == liste0.getSize());
+        assertTrue(12 == liste0.get(0));
+        assertTrue(13 == liste0.get(1));
+        assertTrue(11 == liste0.get(2));
+        assertTrue(10 == liste0.get(3));
+        listeString3.insert("Null2", 0);
+        listeString3.insert("Eins2", 1);
+        listeString3.insert("Zwei2",2);
+        assertTrue(6 == listeString3.getSize());
+        assertTrue("Null2" == listeString3.get(0));
+        assertTrue("Eins2" == listeString3.get(1));
+        assertTrue("Zwei2" == listeString3.get(2));
+        assertTrue("Null" == listeString3.get(3));
+        assertTrue("Eins" == listeString3.get(4));
+        assertTrue("Zwei" == listeString3.get(5));
+        listeString3.insert("Sechs",6);
+        assertTrue("Sechs" == listeString3.get(6));
+        assertTrue(3333 == liste3.getSize());
+//        assertEquals(12800, liste3.getMaxSize());
     }
 
     @Test
-    public void insertDestructiveTest() throws Exception {
+    public void maxSizeIncreaseTest() throws Exception {
+        ListeImpl<Integer> liste4 = new ListeImpl<>();
+        assertEquals(2, liste4.getMaxSize());
+        liste4.insert(0,0);
+        assertEquals(1,liste4.getSize());
+        assertEquals(4, liste4.getMaxSize());
+        liste4.insert(1,1);
+        assertEquals(8, liste4.getMaxSize());
+        liste4.insert(2,2);
+        assertEquals(8, liste4.getMaxSize());
+        liste4.insert(3,3);
+        assertEquals(16, liste4.getMaxSize());
+        liste4.insert(4,4);
+        assertEquals(16,liste4.getMaxSize());
+        ListeImpl<Integer> liste5 = new ListeImpl<>();
+        for(int i=0; i<40; i++){
+            liste5.insert(i,i);
+        }
+        assertEquals(128, liste5.getMaxSize());
+    }
+
+    @Test
+    public void insertNonDestructiveTest() throws Exception {
         liste1.insert(100,0);
         assertTrue(100 == liste1.get(0));
-        assertTrue(1 == liste1.getSize());
+        assertTrue(10 == liste1.get(1));
+        assertTrue(2 == liste1.getSize());
         liste2.insert(200,0);
         liste2.insert(201,1);
         assertTrue(200 == liste2.get(0));
         assertTrue(201 == liste2.get(1));
-        assertTrue(2 == liste2.getSize());
+        assertTrue(20 == liste2.get(2));
+        assertTrue(21 == liste2.get(3));
+        assertTrue(4 == liste2.getSize());
         liste2.insert(202,2);
-        assertTrue(3 == liste2.getSize());
+        assertTrue(5 == liste2.getSize());
     }
 
     @Test (expected = IllegalArgumentException.class)
@@ -131,6 +184,10 @@ public class ListeImplTest {
         liste2.delete(0);
         assertEquals(1, liste2.getSize());
         assertTrue(21 == liste2.get(0));
+        for(int i=0; i<3000; i++){
+            liste3.delete(3332-i);
+        }
+        assertTrue(333 == liste3.getSize());
     }
 
     @Test (expected = IllegalArgumentException.class)
@@ -201,6 +258,7 @@ public class ListeImplTest {
     public void concatInternalArrayTooSmallExceptionTest() throws Exception {
         listeString2.concat(listeString3);
     }
+
 
     @Test
     public void sublistTest() throws Exception {

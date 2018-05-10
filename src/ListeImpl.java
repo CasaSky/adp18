@@ -14,11 +14,18 @@ public class ListeImpl<T> implements ListeInterface<T> {
         arrayListe = (T[])new Object[maxSize];
     }
 
+    public ListeImpl(){
+        this.maxSize = 2;
+        arrayListe = (T[]) new Object[maxSize];
+    }
+
     public void arrayListeIncrease(){
         T[] copyArray = (T[]) new Object[maxSize *2];
         for(int i=0; i<this.size; i++){
             copyArray[i] = arrayListe[i];
         }
+        arrayListe = copyArray;
+        maxSize = maxSize*2;
     }
 
     public void arrayListeDecrease(){
@@ -26,11 +33,13 @@ public class ListeImpl<T> implements ListeInterface<T> {
         for(int i=0; i<this.size; i++){
             copyArray[i] = arrayListe[i];
         }
+        arrayListe = copyArray;
+        maxSize = maxSize/2;
     }
 
     public void arrayListeCheckSize(){
+        if(this.size < maxSize/3) arrayListeDecrease();
         if(this.size >= maxSize/2) arrayListeIncrease();
-        if(this.size <= maxSize/3) arrayListeDecrease();
     }
 
 
@@ -45,9 +54,11 @@ public class ListeImpl<T> implements ListeInterface<T> {
 //        if (position>maxSize) {
 //            throw new IllegalArgumentException("The list is full and can not store more elements");  // IllegalArgumentException wird nicht geworfen, sondern ArrayIndexOutOfBoundsException
 //        }
-
-        for(int i=this.size; i>=position; i--){
-            arrayListe[i] = arrayListe[i-1];
+//        if(this.size == 0) arrayListe[0] = element;
+        if(position != this.size){
+            for(int i=this.size; i>position; i--){       //10 11     0        x 10 11
+                arrayListe[i] = arrayListe[i-1];
+            }
         }
         arrayListe[position] = element;
         size++;
@@ -69,6 +80,7 @@ public class ListeImpl<T> implements ListeInterface<T> {
         }
         arrayListe = copyArrayListe;
         size--;
+        arrayListeCheckSize();
     }
 
     @Override
@@ -158,5 +170,9 @@ public class ListeImpl<T> implements ListeInterface<T> {
             if (this.get(i) != anotherListe.get(i)) {   return false;   }
         }
         return true;
+    }
+
+    public int getMaxSize() {
+        return maxSize;
     }
 }

@@ -47,14 +47,21 @@ public class Main {
 //            System.out.println(elem);
 //        }
 //        array[2].concat("ululuuu");
-        int[] array = new int[5];
-        array[0] = 10;
-        array[1] = 11;
-        for(int elem : array){
-            System.out.println(elem);
-        }
-        System.out.println(array[1] + 5); // fcksht
-        System.out.println(array[2] + 5);
+//        int[] array = new int[5];
+//        array[0] = 10;
+//        array[1] = 11;
+//        for(int elem : array){
+//            System.out.println(elem);
+//        }
+//        System.out.println(array[1] + 5); // fcksht
+//        System.out.println(array[2] + 5);
+
+        ListeImpl liste = new ListeImpl(22);
+        liste.insert(10,0);
+        liste.insert(11,0);
+        liste.insert(12,1);
+        liste.insert(11,3);
+        System.out.println(liste);
 
 
 
