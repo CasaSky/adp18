@@ -45,10 +45,13 @@ public class ListeImpl<T> implements ListeInterface<T> {
 //        if (position>maxSize) {
 //            throw new IllegalArgumentException("The list is full and can not store more elements");  // IllegalArgumentException wird nicht geworfen, sondern ArrayIndexOutOfBoundsException
 //        }
-        arrayListe[position] = element;
-        if (position == size) {
-            size++;
+
+        for(int i=this.size; i>=position; i--){
+            arrayListe[i] = arrayListe[i-1];
         }
+        arrayListe[position] = element;
+        size++;
+        arrayListeCheckSize();
     }
 
     @Override
