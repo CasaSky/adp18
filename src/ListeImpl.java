@@ -19,12 +19,22 @@ public class ListeImpl<T> implements ListeInterface<T> {
 //        return 88;
 //    }
 
-    public void arrayGrow(){
+    public void arrayListeIncrease(){
         T[] copyArray = (T[]) new Object[maxSize *2];
-        for(int i=0; i<maxSize; i++){
-
+        for(int i=0; i<this.size; i++){
+            copyArray[i] = arrayListe[i];
         }
     }
+
+
+    public void arrayListeDecrease(){
+        T[] copyArray = (T[]) new Object[maxSize / 2];
+        for(int i=0; i<this.size; i++){
+            copyArray[i] = arrayListe[i];
+        }
+    }
+
+
 
     @Override
     public void insert(T element, int position) {
