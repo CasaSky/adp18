@@ -40,21 +40,24 @@ public class Main {
 //        int randomNumber = random.ints(1,0,2).findFirst().getAsInt();
 //        System.out.println(randomNumber);
 
-        RandomListGenerator rlg = new RandomListGenerator();
-
-        ListeInterface testListe = rlg.generateRandomList(40000,0,40001,1,1);
-        System.out.println(testListe);
-        System.out.println(rlg.getRandomNumbersArray());
-        System.out.println(rlg.getSizeOfRandomNumbersArray());
-        System.out.println("----------------------------------------------------------------------------------");
-        System.out.println(rlg.getRandomNumbersArray()[0]);
-        System.out.println(rlg.getRandomNumbersArray()[1]);
-        System.out.println(rlg.getRandomNumbersArray()[2]);
-        System.out.println("-----------------------------------------------------------------------------------");
-        System.out.println(testListe.getSize() + " = liste.getSize()");
-        for(int i=0; i<testListe.getSize(); i++){
-            System.out.println(testListe.get(i));
+//        String[] array = new String[5];
+//        array[0]="Null";
+//        array[1]="Eins";
+//        for(String elem : array){
+//            System.out.println(elem);
+//        }
+//        array[2].concat("ululuuu");
+        int[] array = new int[5];
+        array[0] = 10;
+        array[1] = 11;
+        for(int elem : array){
+            System.out.println(elem);
         }
-        System.out.println("Teständerung");
+        System.out.println(array[1] + 5);
+        System.out.println(array[2] + 5);
+
+
+
     }
+
 }
