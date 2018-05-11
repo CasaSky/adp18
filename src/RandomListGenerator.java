@@ -6,46 +6,13 @@ public class RandomListGenerator {
     public RandomListGenerator(){
     }
 
-/*    public static ListeInterface generateRandomList(int listSize, int numbersFromInclusive, int numbersUpToExclusive, int insertAt, int listType){
-        if(insertAt<0 || insertAt>2) throw new IllegalArgumentException("Only correct values for \"insertAt\" (0,1,2)!");
-        if(listType<0 || listType>1) throw new IllegalArgumentException("Only correct values for \" listType\" (0,1)!");
-        Random random1 = new Random();
-        randomNumbersArray = random1.ints(listSize, numbersFromInclusive, numbersUpToExclusive).toArray();
-        ListeInterface resultList;
-
-        switch (listType) {
-            case 0:  resultList = new ListeImpl(40000);
-                    break;
-            case 1:  resultList = new Liste2ChainImpl();
-                    break;
-            default: throw new IllegalArgumentException("Please insert correct value for \"listType\", 0 for ListeImpl, 1 for Liste2ChainImpl");
-        }
-
-        if(insertAt == 0) {
-            for(int elem : randomNumbersArray){
-                resultList.insert(elem,0);
-            }
-        }
-        if(insertAt == 1){
-            for(int elem : randomNumbersArray){
-                resultList.insert(elem, computeRandomPosition(resultList));
-            }
-        }
-        if(insertAt == 2){
-            for(int elem : randomNumbersArray){
-                resultList.insert(elem, resultList.getSize());
-            }
-        }
-        return resultList;
-    }*/
-
     public static ListeInterface generateRandomList(int listSize, int numbersFromInclusive, int numbersUpToExclusive, int insertAt, int listType){
         Random random1 = new Random();
         randomNumbersArray = random1.ints(listSize, numbersFromInclusive, numbersUpToExclusive).toArray();
         ListeInterface resultList;
 
         switch (listType) {
-            case 0:  resultList = new ListeImpl(40000);
+            case 0:  resultList = new ListeImpl();
                 break;
             case 1:  resultList = new Liste2ChainImpl();
                 break;
@@ -53,7 +20,6 @@ public class RandomListGenerator {
         }
 
         for (int elem : randomNumbersArray){
-//        for(int i=0; i<randomNumbersArray.length; i++){
             switch (insertAt) {
                 case 0:
                     resultList.insert(elem, 0);
@@ -65,10 +31,8 @@ public class RandomListGenerator {
                     resultList.insert(elem, resultList.getSize());
                     break;
                 default: throw new IllegalArgumentException("Please insert correct value for \"insertAt\", 0 for insertion at beginning of list, 1 for insertion at random position, 2 for insertion at end of list ");
-//                    break;
             }
         }
-//        }
         return resultList;
     }
 
