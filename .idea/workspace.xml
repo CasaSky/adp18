@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="125b7fe4-75f7-4235-8383-96b09438594b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PerformanceTester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/PerformanceTesterTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adp18.iml" afterPath="$PROJECT_DIR$/adp18.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RandomListGenerator.java" afterPath="$PROJECT_DIR$/src/RandomListGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/PerformanceTesterTest.java" afterPath="$PROJECT_DIR$/tests/PerformanceTesterTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,8 +85,8 @@
       <file leaf-file-name="PerformanceTesterTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/PerformanceTesterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="40" column="91" lean-forward="false" selection-start-line="40" selection-start-column="91" selection-end-line="40" selection-end-column="91" />
+            <state relative-caret-position="401">
+              <caret line="86" column="57" lean-forward="false" selection-start-line="86" selection-start-column="57" selection-end-line="86" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -301,28 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PerformanceTesterTest.testPerformanceOfList">
-    <configuration default="false" name="ListeImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="adp18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListeImplTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.PerformanceTesterTest.completePerformanceTest">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -336,27 +311,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="adp18" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ListeImplTest.maxSizeIncreaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="adp18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListeImplTest" />
-      <option name="METHOD_NAME" value="maxSizeIncreaseTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="false" name="PerformanceTesterTest.testPerformanceOfList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -389,6 +343,48 @@
       <option name="MAIN_CLASS_NAME" value="PerformanceTesterTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PerformanceTesterTest.testPerformanceOfAllInsertionPositions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="adp18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PerformanceTesterTest" />
+      <option name="METHOD_NAME" value="testPerformanceOfAllInsertionPositions" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PerformanceTesterTest.completePerformanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="adp18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PerformanceTesterTest" />
+      <option name="METHOD_NAME" value="completePerformanceTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -809,19 +805,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ListeImplTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ListeImplTest.maxSizeIncreaseTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest.testPerformanceOfList" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest.testPerformanceOfList" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest.testPerformanceOfAllInsertionPositions" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest.completePerformanceTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest.testPerformanceOfList" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ListeImplTest.maxSizeIncreaseTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ListeImplTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest.completePerformanceTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest.testPerformanceOfAllInsertionPositions" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest.testPerformanceOfList" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -843,7 +839,7 @@
       <workItem from="1525777413585" duration="8383000" />
       <workItem from="1525813105141" duration="2580000" />
       <workItem from="1525865089764" duration="8569000" />
-      <workItem from="1525993322530" duration="7254000" />
+      <workItem from="1525993322530" duration="9087000" />
     </task>
     <task id="LOCAL-00001" summary="concat(), sublist() und toString() implementiert.&#10;Funktioniert aber alles noch nicht, unter anderem weil size() nicht funktioniert, weil array.length() wohl doch die maximallänge eines Arrays zurück liefert.">
       <created>1524650686730</created>
@@ -964,43 +960,50 @@
       <option name="project" value="LOCAL" />
       <updated>1525987149743</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="PerformanceTest relativ fertig, Tests noch nicht ganz vollständig.&#10;Eventuell noch direkte Erzeugung einer Excel Tabelle wenn Zeit">
+      <created>1526072631491</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1526072631491</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PerformanceTesterTest - 2018.05.11 at 21h 16m 48s.xml">
-      <configuration name="PerformanceTesterTest" configurationId="JUnit" />
+    <history-entry file="PerformanceTesterTest_completePerformanceTest - 2018.05.11 at 23h 30m 14s.xml">
+      <configuration name="PerformanceTesterTest.completePerformanceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PerformanceTesterTest_testPerformanceOfList - 2018.05.11 at 21h 23m 51s.xml">
-      <configuration name="PerformanceTesterTest.testPerformanceOfList" configurationId="JUnit" />
+    <history-entry file="PerformanceTesterTest_completePerformanceTest - 2018.05.11 at 23h 33m 04s.xml">
+      <configuration name="PerformanceTesterTest.completePerformanceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PerformanceTesterTest_testPerformanceOfList - 2018.05.11 at 22h 03m 44s.xml">
-      <configuration name="PerformanceTesterTest.testPerformanceOfList" configurationId="JUnit" />
+    <history-entry file="PerformanceTesterTest_completePerformanceTest - 2018.05.11 at 23h 35m 18s.xml">
+      <configuration name="PerformanceTesterTest.completePerformanceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PerformanceTesterTest_testPerformanceOfList - 2018.05.11 at 22h 05m 07s.xml">
-      <configuration name="PerformanceTesterTest.testPerformanceOfList" configurationId="JUnit" />
+    <history-entry file="PerformanceTesterTest_completePerformanceTest - 2018.05.11 at 23h 35m 36s.xml">
+      <configuration name="PerformanceTesterTest.completePerformanceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PerformanceTesterTest_testPerformanceOfList - 2018.05.11 at 22h 08m 30s.xml">
-      <configuration name="PerformanceTesterTest.testPerformanceOfList" configurationId="JUnit" />
+    <history-entry file="PerformanceTesterTest_completePerformanceTest - 2018.05.11 at 23h 36m 22s.xml">
+      <configuration name="PerformanceTesterTest.completePerformanceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PerformanceTesterTest_testPerformanceOfList - 2018.05.11 at 22h 09m 58s.xml">
-      <configuration name="PerformanceTesterTest.testPerformanceOfList" configurationId="JUnit" />
+    <history-entry file="PerformanceTesterTest_completePerformanceTest - 2018.05.11 at 23h 36m 45s.xml">
+      <configuration name="PerformanceTesterTest.completePerformanceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PerformanceTesterTest_testPerformanceOfList - 2018.05.11 at 22h 10m 28s.xml">
-      <configuration name="PerformanceTesterTest.testPerformanceOfList" configurationId="JUnit" />
+    <history-entry file="PerformanceTesterTest_completePerformanceTest - 2018.05.11 at 23h 37m 29s.xml">
+      <configuration name="PerformanceTesterTest.completePerformanceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PerformanceTesterTest_testPerformanceOfList - 2018.05.11 at 22h 10m 37s.xml">
-      <configuration name="PerformanceTesterTest.testPerformanceOfList" configurationId="JUnit" />
+    <history-entry file="PerformanceTesterTest_completePerformanceTest - 2018.05.11 at 23h 37m 43s.xml">
+      <configuration name="PerformanceTesterTest.completePerformanceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PerformanceTesterTest_testPerformanceOfList - 2018.05.11 at 22h 10m 44s.xml">
-      <configuration name="PerformanceTesterTest.testPerformanceOfList" configurationId="JUnit" />
+    <history-entry file="PerformanceTesterTest_completePerformanceTest - 2018.05.11 at 23h 38m 00s.xml">
+      <configuration name="PerformanceTesterTest.completePerformanceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PerformanceTesterTest_testPerformanceOfList - 2018.05.11 at 22h 11m 36s.xml">
-      <configuration name="PerformanceTesterTest.testPerformanceOfList" configurationId="JUnit" />
+    <history-entry file="PerformanceTesterTest_testPerformanceOfAllInsertionPositions - 2018.05.11 at 23h 28m 26s.xml">
+      <configuration name="PerformanceTesterTest.testPerformanceOfAllInsertionPositions" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63395000" />
+    <option name="totallyTimeSpent" value="65228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -1015,13 +1018,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32089552" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32089552" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1064,7 +1067,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1094,7 +1097,8 @@
     <MESSAGE value="RandomListGenerator...   bin ich zu doof für" />
     <MESSAGE value="arrayListeIncrease() und arrayListeDecrease() implementiert, noch nicht getestet" />
     <MESSAGE value="ListeImpl.insert() geändert damit nicht mehr destruktiv,   noch nicht getestet" />
-    <option name="LAST_COMMIT_MESSAGE" value="ListeImpl.insert() geändert damit nicht mehr destruktiv,   noch nicht getestet" />
+    <MESSAGE value="PerformanceTest relativ fertig, Tests noch nicht ganz vollständig.&#10;Eventuell noch direkte Erzeugung einer Excel Tabelle wenn Zeit" />
+    <option name="LAST_COMMIT_MESSAGE" value="PerformanceTest relativ fertig, Tests noch nicht ganz vollständig.&#10;Eventuell noch direkte Erzeugung einer Excel Tabelle wenn Zeit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1490,8 +1494,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/PerformanceTesterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="40" column="91" lean-forward="false" selection-start-line="40" selection-start-column="91" selection-end-line="40" selection-end-column="91" />
+        <state relative-caret-position="401">
+          <caret line="86" column="57" lean-forward="false" selection-start-line="86" selection-start-column="57" selection-end-line="86" selection-end-column="57" />
           <folding />
         </state>
       </provider>
