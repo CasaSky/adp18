@@ -133,7 +133,7 @@ public class ListeImpl<T> implements ListeInterface<T> {
 
         for(int i = startPosition; i <= endPosition; ++i) {
             resultListe.insert(this.get(i), resultListeIndex);
-            ++resultListeIndex;
+            resultListeIndex++;
         }
 
         return resultListe;

@@ -255,7 +255,6 @@ public class ListeImplTest {
         listeString10.sublist(0,2);
         assertTrue(listeString3.equals(listeString10.sublist(0,2)));
 //        assertEquals(listeString3, listeString10.sublist(0,2));
-
     }
 
     @Test
