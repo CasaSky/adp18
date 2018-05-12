@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="125b7fe4-75f7-4235-8383-96b09438594b" name="Default" comment="">
+    <list default="true" id="125b7fe4-75f7-4235-8383-96b09438594b" name="Default" comment="ListeImpl.decrease() geändert, damit Array erst bei 1/4 Inhalt verkleinert wird.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/PerformanceTesterTest.java" afterPath="$PROJECT_DIR$/tests/PerformanceTesterTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ListeImpl.java" afterPath="$PROJECT_DIR$/src/ListeImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/ListeImplTest.java" afterPath="$PROJECT_DIR$/tests/ListeImplTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,12 +24,9 @@
       <file leaf-file-name="ListeImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ListeImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-              <folding>
-                <element signature="e#4807#4808#0" expanded="false" />
-                <element signature="e#4834#4835#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="48">
+              <caret line="116" column="69" lean-forward="false" selection-start-line="116" selection-start-column="69" selection-end-line="116" selection-end-column="69" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -38,16 +36,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2660">
               <caret line="135" column="26" lean-forward="false" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
-              <folding>
-                <element signature="e#284#285#0" expanded="false" />
-                <element signature="e#316#317#0" expanded="false" />
-                <element signature="e#5018#5019#0" expanded="false" />
-                <element signature="e#5045#5046#0" expanded="false" />
-                <element signature="e#5684#5685#0" expanded="false" />
-                <element signature="e#5716#5717#0" expanded="false" />
-                <element signature="e#5745#5746#0" expanded="false" />
-                <element signature="e#5777#5778#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,37 +44,27 @@
       <file leaf-file-name="Liste2ChainImplTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Liste2ChainImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1600">
+            <state relative-caret-position="1540">
               <caret line="80" column="4" lean-forward="false" selection-start-line="80" selection-start-column="4" selection-end-line="94" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListeImplTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ListeImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/ListeImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2720">
-              <caret line="139" column="24" lean-forward="false" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
+            <state relative-caret-position="381">
+              <caret line="286" column="0" lean-forward="true" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PerformanceTester.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PerformanceTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="47" column="48" lean-forward="false" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PerformanceTesterTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PerformanceTesterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/PerformanceTesterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
+            <state relative-caret-position="631">
               <caret line="86" column="57" lean-forward="false" selection-start-line="86" selection-start-column="57" selection-end-line="86" selection-end-column="57" />
               <folding />
             </state>
@@ -97,7 +76,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
               <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-              <folding />
+              <folding>
+                <marker date="1526074791659" expanded="true" signature="1470:1512" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,9 +88,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="980">
               <caret line="52" column="55" lean-forward="false" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,8 +96,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="67" column="49" lean-forward="true" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+            <state relative-caret-position="1340">
+              <caret line="67" column="49" lean-forward="false" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -167,12 +146,12 @@
         <option value="$PROJECT_DIR$/tests/Liste2ChainImplTest.java" />
         <option value="$PROJECT_DIR$/src/Liste2ChainImpl.java" />
         <option value="$PROJECT_DIR$/src/randomListGenerator.java" />
-        <option value="$PROJECT_DIR$/src/ListeImpl.java" />
-        <option value="$PROJECT_DIR$/tests/ListeImplTest.java" />
         <option value="$PROJECT_DIR$/src/RandomListGenerator.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/PerformanceTester.java" />
         <option value="$PROJECT_DIR$/tests/PerformanceTesterTest.java" />
+        <option value="$PROJECT_DIR$/src/ListeImpl.java" />
+        <option value="$PROJECT_DIR$/tests/ListeImplTest.java" />
       </list>
     </option>
   </component>
@@ -297,64 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PerformanceTesterTest.completePerformanceTest">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="adp18" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PerformanceTesterTest.testPerformanceOfList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="adp18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PerformanceTesterTest" />
-      <option name="METHOD_NAME" value="testPerformanceOfList" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="PerformanceTesterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="adp18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PerformanceTesterTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ListeImplTest">
     <configuration default="false" name="PerformanceTesterTest.testPerformanceOfAllInsertionPositions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="adp18" />
@@ -384,6 +306,69 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PerformanceTesterTest" />
       <option name="METHOD_NAME" value="completePerformanceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ListeImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="adp18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ListeImplTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ListeImplTest.insertAtPositionGreaterThanInternalArraySizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="adp18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ListeImplTest" />
+      <option name="METHOD_NAME" value="insertAtPositionGreaterThanInternalArraySizeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ListeImplTest.getArrayListeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="adp18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ListeImplTest" />
+      <option name="METHOD_NAME" value="getArrayListeTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -805,19 +790,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest.testPerformanceOfList" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest.testPerformanceOfAllInsertionPositions" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest.completePerformanceTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest.testPerformanceOfAllInsertionPositions" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest.completePerformanceTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ListeImplTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ListeImplTest.insertAtPositionGreaterThanInternalArraySizeTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ListeImplTest.getArrayListeTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest.completePerformanceTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest.testPerformanceOfAllInsertionPositions" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest.testPerformanceOfList" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ListeImplTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ListeImplTest.getArrayListeTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ListeImplTest.insertAtPositionGreaterThanInternalArraySizeTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest.completePerformanceTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PerformanceTesterTest.testPerformanceOfAllInsertionPositions" />
       </list>
     </recent_temporary>
   </component>
@@ -840,6 +825,7 @@
       <workItem from="1525813105141" duration="2580000" />
       <workItem from="1525865089764" duration="8569000" />
       <workItem from="1525993322530" duration="9087000" />
+      <workItem from="1526116251438" duration="1263000" />
     </task>
     <task id="LOCAL-00001" summary="concat(), sublist() und toString() implementiert.&#10;Funktioniert aber alles noch nicht, unter anderem weil size() nicht funktioniert, weil array.length() wohl doch die maximallänge eines Arrays zurück liefert.">
       <created>1524650686730</created>
@@ -971,39 +957,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PerformanceTesterTest_completePerformanceTest - 2018.05.11 at 23h 30m 14s.xml">
-      <configuration name="PerformanceTesterTest.completePerformanceTest" configurationId="JUnit" />
+    <history-entry file="ListeImplTest - 2018.05.12 at 11h 20m 07s.xml">
+      <configuration name="ListeImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PerformanceTesterTest_completePerformanceTest - 2018.05.11 at 23h 33m 04s.xml">
-      <configuration name="PerformanceTesterTest.completePerformanceTest" configurationId="JUnit" />
+    <history-entry file="ListeImplTest - 2018.05.12 at 11h 21m 30s.xml">
+      <configuration name="ListeImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PerformanceTesterTest_completePerformanceTest - 2018.05.11 at 23h 35m 18s.xml">
-      <configuration name="PerformanceTesterTest.completePerformanceTest" configurationId="JUnit" />
+    <history-entry file="ListeImplTest - 2018.05.12 at 11h 26m 27s.xml">
+      <configuration name="ListeImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PerformanceTesterTest_completePerformanceTest - 2018.05.11 at 23h 35m 36s.xml">
-      <configuration name="PerformanceTesterTest.completePerformanceTest" configurationId="JUnit" />
+    <history-entry file="ListeImplTest - 2018.05.12 at 11h 26m 48s.xml">
+      <configuration name="ListeImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PerformanceTesterTest_completePerformanceTest - 2018.05.11 at 23h 36m 22s.xml">
-      <configuration name="PerformanceTesterTest.completePerformanceTest" configurationId="JUnit" />
+    <history-entry file="ListeImplTest - 2018.05.12 at 11h 32m 22s.xml">
+      <configuration name="ListeImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PerformanceTesterTest_completePerformanceTest - 2018.05.11 at 23h 36m 45s.xml">
-      <configuration name="PerformanceTesterTest.completePerformanceTest" configurationId="JUnit" />
+    <history-entry file="ListeImplTest_getArrayListeTest - 2018.05.12 at 11h 27m 57s.xml">
+      <configuration name="ListeImplTest.getArrayListeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PerformanceTesterTest_completePerformanceTest - 2018.05.11 at 23h 37m 29s.xml">
-      <configuration name="PerformanceTesterTest.completePerformanceTest" configurationId="JUnit" />
+    <history-entry file="ListeImplTest_getArrayListeTest - 2018.05.12 at 11h 28m 28s.xml">
+      <configuration name="ListeImplTest.getArrayListeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PerformanceTesterTest_completePerformanceTest - 2018.05.11 at 23h 37m 43s.xml">
-      <configuration name="PerformanceTesterTest.completePerformanceTest" configurationId="JUnit" />
+    <history-entry file="ListeImplTest_getArrayListeTest - 2018.05.12 at 11h 29m 42s.xml">
+      <configuration name="ListeImplTest.getArrayListeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PerformanceTesterTest_completePerformanceTest - 2018.05.11 at 23h 38m 00s.xml">
-      <configuration name="PerformanceTesterTest.completePerformanceTest" configurationId="JUnit" />
+    <history-entry file="ListeImplTest_getArrayListeTest - 2018.05.12 at 11h 30m 53s.xml">
+      <configuration name="ListeImplTest.getArrayListeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PerformanceTesterTest_testPerformanceOfAllInsertionPositions - 2018.05.11 at 23h 28m 26s.xml">
-      <configuration name="PerformanceTesterTest.testPerformanceOfAllInsertionPositions" configurationId="JUnit" />
+    <history-entry file="ListeImplTest_getArrayListeTest - 2018.05.12 at 11h 31m 10s.xml">
+      <configuration name="ListeImplTest.getArrayListeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65228000" />
+    <option name="totallyTimeSpent" value="66525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -1018,7 +1004,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32089552" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3196931" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
@@ -1115,7 +1101,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="66" column="67" lean-forward="false" selection-start-line="66" selection-start-column="67" selection-end-line="66" selection-end-column="67" />
-          <folding />
+          <folding>
+            <marker date="1526074791659" expanded="true" signature="1470:1512" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1410,9 +1398,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="980">
           <caret line="52" column="55" lean-forward="false" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1426,7 +1412,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Liste2ChainImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
+        <state relative-caret-position="1540">
           <caret line="80" column="4" lean-forward="false" selection-start-line="80" selection-start-column="4" selection-end-line="94" selection-end-column="5" />
           <folding />
         </state>
@@ -1436,42 +1422,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2660">
           <caret line="135" column="26" lean-forward="false" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
-          <folding>
-            <element signature="e#284#285#0" expanded="false" />
-            <element signature="e#316#317#0" expanded="false" />
-            <element signature="e#5018#5019#0" expanded="false" />
-            <element signature="e#5045#5046#0" expanded="false" />
-            <element signature="e#5684#5685#0" expanded="false" />
-            <element signature="e#5716#5717#0" expanded="false" />
-            <element signature="e#5745#5746#0" expanded="false" />
-            <element signature="e#5777#5778#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListeImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="e#4807#4808#0" expanded="false" />
-            <element signature="e#4834#4835#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/ListeImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2720">
-          <caret line="139" column="24" lean-forward="false" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="67" column="49" lean-forward="true" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+        <state relative-caret-position="1340">
+          <caret line="67" column="49" lean-forward="false" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -1480,7 +1438,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding />
+          <folding>
+            <marker date="1526074791659" expanded="true" signature="1470:1512" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1488,14 +1448,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="47" column="48" lean-forward="false" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/PerformanceTesterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
+        <state relative-caret-position="631">
           <caret line="86" column="57" lean-forward="false" selection-start-line="86" selection-start-column="57" selection-end-line="86" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="116" column="69" lean-forward="false" selection-start-line="116" selection-start-column="69" selection-end-line="116" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ListeImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="286" column="0" lean-forward="true" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
           <folding />
         </state>
       </provider>
