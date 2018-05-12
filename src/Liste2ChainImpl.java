@@ -80,7 +80,7 @@ public class Liste2ChainImpl<T> implements ListeInterface<T> {
 
     @Override
     public T get(int position) {
-        if (position < 0 || position >= getSize()){
+        if (position < 0 || position >= this.size){
             throw new IllegalArgumentException("Position must be greater than 0 and lower than size of list!");
             }
         if(position==0) return (T) this.head.getData();

@@ -63,10 +63,18 @@ public class Main {
 //        liste.insert(11,3);
 //        System.out.println(liste);
 
-        ListeInterface listeImpl = new ListeImpl();
-        listeImpl.insert("Null", 0);
-        System.out.println(listeImpl.getClass());
+//        ListeInterface listeImpl = new ListeImpl();
+//        listeImpl.insert("Null", 0);
+//        System.out.println(listeImpl.getClass());
 
+        Stack testStack = new Stack();
+        System.out.println(testStack.isEmpty());
+        Token operand1 = new Token(11);
+        Token operand2 = new Token(12);
+        Token operator = new Token('+');
+        Token dummy = new Token('(');
+        int partialExpressionResult = ExpressionStacker.computePartialExpression(operand1.getOperand(), operand2.getOperand(), operator.getOperator());
+        System.out.println(partialExpressionResult);
 
 
 

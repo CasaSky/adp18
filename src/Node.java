@@ -40,7 +40,7 @@ public class Node<T> {
 //            return true;
 //        }
 //        return false;
-        if (this.getData() == anotherNode.getData()){
+        if (this.getData().equals(anotherNode.getData())){
             return true;
         }
         return false;
